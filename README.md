@@ -4,7 +4,7 @@
   <li>Code to reproduce all numerics in the manuscript is in <ins>Brimacombe_et_al_2023.r</ins>.</li>
   <li>Code to reproduce the multidimensional plot (Figure 3) is in <ins>mds.py</ins>.</li>
   <li>All metadata for the associated networks is in <ins>metadata.csv</ins>.</li>
-  <li><ins>metadata_for_mds.csv</ins> is the metadata file without bibtex citations (Python doesn't like bibtex code).</li>
+  <li><ins>metadata_for_mds.csv</ins> is the metadata file without bibtex citations, used in <ins>mds.py</ins> (Python doesn't like bibtex code).</li>
   <li>All computed pairwise graphlet correlated distance-11s between networks is in <ins>gcd11.csv</ins>.</li>
   <li>All networks used in the manuscript are in the folder <ins>networks</ins>.
   <ul>
