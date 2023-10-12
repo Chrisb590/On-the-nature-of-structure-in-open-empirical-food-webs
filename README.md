@@ -12,8 +12,8 @@
     <ul>
       <li>Within each source's folder, networks are organized into two folders: 
         <ul>
-        <li><i>raw_networks</ins> which contain the unaltered networks downloaded from the repository.</i> 
-        <li><i>edgeList_binary_white_space_removed_no_cannibalism_no_duplicate</i> which contain the edge list of networks used in the manuscript, and have been modified such that there is no white spaces in node names, no cannibalism edges, and no duplicate nodes. Moreover, networks were required to have at least five unique predator and prey nodes, and at least 10 nodes in total.</li>
+        <li><ins>raw_networks</ins> which contain the unaltered networks downloaded from the repository.</li> 
+        <li><ins>edgeList_binary_white_space_removed_no_cannibalism_no_duplicate</ins> which contain the edge list of networks used in the manuscript, and have been modified such that there is no white spaces in node names, no cannibalism edges, and no duplicate nodes. Moreover, networks were required to have at least five unique predator and prey nodes, and at least 10 nodes in total.</li>
         </ul>
     </ul>
     </li>
