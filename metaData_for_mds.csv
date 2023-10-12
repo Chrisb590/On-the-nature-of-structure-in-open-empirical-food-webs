@@ -1,0 +1,149 @@
+name,author,latitude,longitude,Notes,Primary_type,number_of_nodes,is_connected,year_published,decade_published,Ecopath
+WEB22_,One_network_per_publication,74.37483614,19.10243909,,Aquatic and terrestrial,26,TRUE,1923,1920,Not_Ecopath_model
+WEB151_,One_network_per_publication,51.34118467,-0.364508055,,Terrestrial,23,TRUE,1926,1920,Not_Ecopath_model
+WEB210_,One_network_per_publication,53.84937148,-1.096038121,Approx location based on multiple rivers,Aquatic,60,TRUE,1929,1920,Not_Ecopath_model
+WEB211_,One_network_per_publication,44.333333,-80.25,,Aquatic,34,TRUE,1934,1930,Not_Ecopath_model
+WEB6_,One_network_per_publication,38.20870424,-121.6577822,,Aquatic and terrestrial,25,TRUE,1935,1930,Not_Ecopath_model
+WEB108_,One_network_per_publication,36.616667,-121.9,,Aquatic,14,TRUE,1937,1930,Not_Ecopath_model
+WEB59_,One_network_per_publication,40.13821304,-88.14151711,,Terrestrial,30,TRUE,1945,1940,Not_Ecopath_model
+WEB89_,One_network_per_publication,52.12530284,0.036478909,,Aquatic,18,TRUE,1948,1940,Not_Ecopath_model
+WEB213_,One_network_per_publication,52.98816887,-3.463556345,Approx location based on map,Aquatic,34,TRUE,1949,1940,Not_Ecopath_model
+WEB34_,One_network_per_publication,51.90389096,-3.811778424,Guessing location based on description in paper (map),Aquatic,12,TRUE,1949,1940,Not_Ecopath_model
+WEB63_,One_network_per_publication,52.39819508,-3.975650185,,Aquatic,18,TRUE,1950,1950,Not_Ecopath_model
+WEB29_,One_network_per_publication,88.00490026,14.36401014,,Aquatic,22,TRUE,1954,1950,Not_Ecopath_model
+WEB4_,One_network_per_publication,37.97770036,-122.345592,,Aquatic and terrestrial,13,TRUE,1956,1950,Not_Ecopath_model
+WEB28_,One_network_per_publication,-45.86518687,170.6727998,,Terrestrial,43,TRUE,1956,1950,Not_Ecopath_model
+WEB204_,Fryer_1959,-12.35886971,34.40115924,,Aquatic,33,TRUE,1959,,Not_Ecopath_model
+WEB33_,Fryer_1959,-12.35886971,34.40115924,,Aquatic,33,TRUE,1959,,Not_Ecopath_model
+WEB38_,Fryer_1959,-12.35886971,34.40115924,,Aquatic,31,TRUE,1959,,Not_Ecopath_model
+WEB39_,Fryer_1959,-12.35886971,34.40115924,,Aquatic,37,TRUE,1959,,Not_Ecopath_model
+WEB17_,One_network_per_publication,7.325339824,168.6271385,Approx location,Aquatic,14,TRUE,1960,1960,Not_Ecopath_model
+WEB58_,One_network_per_publication,55.5461059,38.51214402,Guess location based on description,Aquatic and terrestrial,18,TRUE,1961,1960,Not_Ecopath_model
+WEB40_,One_network_per_publication,5.21207729,101.2494383,Guessing location,Terrestrial,11,TRUE,1962,1960,Not_Ecopath_model
+WEB208_,One_network_per_publication,37.933333,-86.116667,,Aquatic,11,TRUE,1963,1960,Not_Ecopath_model
+WEB18_,One_network_per_publication,1.083333,154.75,,Aquatic and terrestrial,27,TRUE,1963,1960,Not_Ecopath_model
+WEB35_,One_network_per_publication,37.95096838,-86.05520976,Location estimated from paper description,Aquatic,13,TRUE,1967,1960,Not_Ecopath_model
+WEB37_,One_network_per_publication,32.866667,-117.266667,,Aquatic,25,TRUE,1967,1960,Not_Ecopath_model
+WEB3_,One_network_per_publication,40.90720537,-72.64440342,"Location estimated based on ""Long Island Estuary""",Aquatic and terrestrial,20,TRUE,1967,1960,Not_Ecopath_model
+WEB45_,One_network_per_publication,41.38164435,-91.34878486,,Aquatic,11,TRUE,1968,1960,Not_Ecopath_model
+WEB67_,One_network_per_publication,40.40367996,-91.37402321,,Aquatic and terrestrial,21,TRUE,1968,1960,Not_Ecopath_model
+WEB199_,One_network_per_publication,40.82058083,-74.61099704,"Location arbitrarly chosen based on ""New York""",Terrestrial,32,TRUE,1969,1960,Not_Ecopath_model
+WEB84_,One_network_per_publication,42.46030407,-84.01023821,,Aquatic and terrestrial,12,TRUE,1972,1970,Not_Ecopath_model
+WEB123_,One_network_per_publication,40.77896647,-104.005213,,Terrestrial,133,TRUE,1972,1970,Not_Ecopath_model
+WEB117_,One_network_per_publication,9.18191966,-79.89737506,,Aquatic,13,TRUE,1973,1970,Not_Ecopath_model
+WEB207_,One_network_per_publication,41.95,-112.666667,,Aquatic,32,TRUE,1973,1970,Not_Ecopath_model
+WEB43_,One_network_per_publication,32.95,-117.266667,,Aquatic,21,TRUE,1974,1970,Not_Ecopath_model
+WEB200_,Valiela_1974,42.60613493,-76.59154498,,Terrestrial,26,TRUE,1974,,Not_Ecopath_model
+WEB201_,Valiela_1974,42.60613493,-76.59154498,,Terrestrial,35,TRUE,1974,,Not_Ecopath_model
+WEB155_,One_network_per_publication,51.77006589,-1.33022903,Location estimation based on Askew 1961,Terrestrial,16,TRUE,1975,1970,Not_Ecopath_model
+WEB12_,Menge_and_Sutherland_1976,48.53895137,-123.1251691,Location copied from proected area (but should be nearby I think),Aquatic,13,TRUE,1976,,Not_Ecopath_model
+WEB13_,Menge_and_Sutherland_1976,48.53895137,-123.1251691,,Aquatic,13,TRUE,1976,,Not_Ecopath_model
+WEB121_,One_network_per_publication,53.29071538,7.168240647,,Aquatic,12,TRUE,1977,1970,Not_Ecopath_model
+WEB42_,One_network_per_publication,0,-155,Very rough approx location (large area in ocean),Aquatic,16,TRUE,1978,1970,Not_Ecopath_model
+WEB154_,One_network_per_publication,40.11703458,-88.26298753,Location estimated from description,Terrestrial,15,TRUE,1978,1970,Not_Ecopath_model
+WEB107_,One_network_per_publication,39.76962577,-74.10931078,,Aquatic,10,TRUE,1979,1970,Not_Ecopath_model
+WEB88_,One_network_per_publication,64.01048884,23.99909622,,Aquatic,16,TRUE,1979,1970,Not_Ecopath_model
+WEB98_,One_network_per_publication,-23.616667,15.016667,,Terrestrial,17,TRUE,1980,1980,Not_Ecopath_model
+WEB105_,One_network_per_publication,42.67082385,-70.6712113,,Aquatic,10,TRUE,1982,1980,Not_Ecopath_model
+WEB87_,One_network_per_publication,72.68692752,-77.70815814,"Assumed location based on ""Pond Inlet""",Aquatic,12,TRUE,1982,1980,Not_Ecopath_model
+WEB72_,One_network_per_publication,46.02752365,-75.92447236,Loction estimated,Aquatic,17,TRUE,1983,1980,Not_Ecopath_model
+WEB152_,One_network_per_publication,28.32618135,-99.4072224,Names have own columns despite diagram with all species as one entity (different than others),Terrestrial,23,TRUE,1984,1980,Not_Ecopath_model
+WEB205_,One_network_per_publication,51.07328374,0.049804756,Estimated from descriiption of another paper,Aquatic,24,TRUE,1985,1980,Not_Ecopath_model
+WEB131_,Beaver_1985,-19.3139734,46.42338947,Broadly defining location based on country,Aquatic and terrestrial,19,TRUE,1985,,Not_Ecopath_model
+WEB132_,Beaver_1985,3.82014031,101.0740644,Broadly defining location based on country,Aquatic and terrestrial,18,TRUE,1985,,Not_Ecopath_model
+WEB134_,Beaver_1985,-19.3139734,46.42338947,Broadly defining location based on country,Aquatic and terrestrial,11,TRUE,1985,,Not_Ecopath_model
+WEB104_,One_network_per_publication,8.803911952,-79.51683487,,Aquatic,27,TRUE,1986,1980,Not_Ecopath_model
+WEB343_,One_network_per_publication,-28.2,153.116667,,Aquatic and terrestrial,12,TRUE,1987,1980,Not_Ecopath_model
+WEB351_,One_network_per_publication,53.666667,-0.983333,,Aquatic and terrestrial,35,TRUE,1989,1980,Not_Ecopath_model
+WEB354_,One_network_per_publication,18.0695339,-63.05466325,,Terrestrial,44,TRUE,1993,1990,Not_Ecopath_model
+WEB306_,Closs_and_Lake_1994,-37.56616196,144.3976879,,Aquatic,49,TRUE,1994,,Not_Ecopath_model
+WEB307_,Closs_and_Lake_1994,-37.56616196,144.3976879,,Aquatic,52,TRUE,1994,,Not_Ecopath_model
+WEB308_,Closs_and_Lake_1994,-37.56616196,144.3976879,,Aquatic,51,TRUE,1994,,Not_Ecopath_model
+WEB281_,Tavares-Cromar_and_Williams_1996,43.966667,-79.083333,,Aquatic,39,TRUE,1996,,Not_Ecopath_model
+WEB285_,Tavares-Cromar_and_Williams_1996,43.966667,-79.083333,,Aquatic,37,TRUE,1996,,Not_Ecopath_model
+WEB296_,One_network_per_publication,-24.94652999,47.00313721,,Aquatic and terrestrial,10,TRUE,1996,1990,Not_Ecopath_model
+WEB263_,One_network_per_publication,46.06643009,-89.63966404,Approximated based on description,Aquatic and terrestrial,77,TRUE,1997,1990,Not_Ecopath_model
+WEB357_,One_network_per_publication,-21.71614787,13.78223939,Location estimated,Aquatic,29,TRUE,1998,1990,Not_Ecopath_model
+WEB288_,One_network_per_publication,30.09779731,-84.256862,,Aquatic,48,TRUE,1999,1990,Ecopath_model
+WEB311_,One_network_per_publication,51.41104153,-0.639705222,,Terrestrial,154,TRUE,2000,2000,Not_Ecopath_model
+WEB334_,Alcorlo_et_al_2001,41.443333,-0.261667,,Aquatic,13,TRUE,2001,,Not_Ecopath_model
+WEB335_,Alcorlo_et_al_2001,41.434722,-0.267778,,Aquatic,15,TRUE,2001,,Not_Ecopath_model
+WEB264_,One_network_per_publication,39.0833333,-96.58333333,,Aquatic,12,TRUE,2002,2000,Not_Ecopath_model
+WEB214_,Thompson_and_Townsend_2003,44.6819444,-69.1425,Assumming these are good based on the author is the source of these networks,Aquatic,76,TRUE,2003,,Not_Ecopath_model
+WEB215_,Thompson_and_Townsend_2003,44.6811111,-69.12722222,Assumming these are good based on the author is the source of these networks,Aquatic,106,TRUE,2003,,Not_Ecopath_model
+WEB216_,Thompson_and_Townsend_2003,35.0472222,-83.43611111,Assumming these are good based on the author is the source of these networks,Aquatic,59,TRUE,2003,,Not_Ecopath_model
+WEB217_,Thompson_and_Townsend_2003,35.0638889,-83.43194444,Assumming these are good based on the author is the source of these networks,Aquatic,71,TRUE,2003,,Not_Ecopath_model
+WEB267_,One_network_per_publication,23.00368421,-106.1348841,,Aquatic,26,TRUE,2003,2000,Ecopath_model
+WEB353_,One_network_per_publication,54.1,", 10.250000",,Aquatic,15,TRUE,2003,2000,Ecopath_model
+WEB355_,Cohen_et_al_2003,46.216667,-89.533333,,Aquatic,21,TRUE,2003,,Not_Ecopath_model
+WEB356_,Cohen_et_al_2003,46.216667,-89.533333,,Aquatic,20,TRUE,2003,,Not_Ecopath_model
+WEB358_,One_network_per_publication,64.216667,19.5,One of the four sites,Terrestrial,14,TRUE,2003,2000,Not_Ecopath_model
+WEB218_,Thompson_and_Townsend_2004,-45.7958333,170.425,Assumming these are good based on the author is the source of these networks,Aquatic,78,TRUE,2004,,Not_Ecopath_model
+WEB219_,Thompson_and_Townsend_2004,-45.7666667,170.4611111,Assumming these are good based on the author is the source of these networks,Aquatic,79,TRUE,2004,,Not_Ecopath_model
+WEB220_,Thompson_and_Townsend_2004,-46.3583333,169.0861111,Assumming these are good based on the author is the source of these networks,Aquatic,66,TRUE,2004,,Not_Ecopath_model
+WEB221_,Thompson_and_Townsend_2004,-45.1299859,169.5248818,Assumming these are good based on the author is the source of these networks,Aquatic,52,TRUE,2004,,Not_Ecopath_model
+WEB222_,Thompson_and_Townsend_2004,-45.9472222,170.0291667,Assumming these are good based on the author is the source of these networks,Aquatic,78,TRUE,2004,,Not_Ecopath_model
+WEB223_,Thompson_and_Townsend_2004,-45.1299859,169.5248818,Assumming these are good based on the author is the source of these networks,Aquatic,85,TRUE,2004,,Not_Ecopath_model
+WEB224_,Thompson_and_Townsend_2004,-45.1299859,169.5248818,Assumming these are good based on the author is the source of these networks,Aquatic,57,TRUE,2004,,Not_Ecopath_model
+WEB225_,Thompson_and_Townsend_2004,-45.1299859,169.5248818,Assumming these are good based on the author is the source of these networks,Aquatic,73,TRUE,2004,,Not_Ecopath_model
+WEB226_,Thompson_and_Townsend_2004,-45.1299859,169.5248818,Assumming these are good based on the author is the source of these networks,Aquatic,107,TRUE,2004,,Not_Ecopath_model
+WEB227_,Thompson_and_Townsend_2004,-44.95,170.35,Assumming these are good based on the author is the source of these networks,Aquatic,84,TRUE,2004,,Not_Ecopath_model
+WEB228_,Thompson_and_Townsend_2004,-44.95,170.35,Assumming these are good based on the author is the source of these networks,Aquatic,96,TRUE,2004,,Not_Ecopath_model
+WEB229_,Thompson_and_Townsend_2004,-44.95,170.35,Assumming these are good based on the author is the source of these networks,Aquatic,98,TRUE,2004,,Not_Ecopath_model
+WEB230_,Thompson_and_Townsend_2004,-44.95,170.35,Assumming these are good based on the author is the source of these networks,Aquatic,78,TRUE,2004,,Not_Ecopath_model
+WEB231_,Thompson_and_Townsend_2004,-45.6,169.9166667,Assumming these are good based on the author is the source of these networks,Aquatic,112,TRUE,2004,,Not_Ecopath_model
+WEB232_,Thompson_and_Townsend_2004,-45.6,169.9166667,Assumming these are good based on the author is the source of these networks,Aquatic,86,TRUE,2004,,Not_Ecopath_model
+WEB233_,Thompson_and_Townsend_2004,-45.1299859,169.5248818,Assumming these are good based on the author is the source of these networks,Aquatic,86,TRUE,2004,,Not_Ecopath_model
+WEB234_,Thompson_and_Townsend_2004,-45.1299859,169.5248818,Assumming these are good based on the author is the source of these networks,Aquatic,94,TRUE,2004,,Not_Ecopath_model
+WEB235_,Thompson_and_Townsend_2004,-45.1299859,169.5248818,Assumming these are good based on the author is the source of these networks,Aquatic,108,TRUE,2004,,Not_Ecopath_model
+WEB236_,Thompson_and_Townsend_2004,-46.3583333,169.0861111,Assumming these are good based on the author is the source of these networks,Aquatic,68,TRUE,2004,,Not_Ecopath_model
+WEB237_,Thompson_and_Townsend_2004,-45.1299859,169.5248818,Assumming these are good based on the author is the source of these networks,Aquatic,57,TRUE,2004,,Not_Ecopath_model
+WEB238_,Thompson_and_Townsend_2004,-45.9472222,170.0291667,Assumming these are good based on the author is the source of these networks,Aquatic,72,TRUE,2004,,Not_Ecopath_model
+WEB239_,Thompson_and_Townsend_2004,-45.1299859,169.5248818,Assumming these are good based on the author is the source of these networks,Aquatic,69,TRUE,2004,,Not_Ecopath_model
+WEB240_,Thompson_and_Townsend_2004,-45.1299859,169.5248818,Assumming these are good based on the author is the source of these networks,Aquatic,67,TRUE,2004,,Not_Ecopath_model
+WEB241_,Thompson_and_Townsend_2004,-45.1299859,169.5248818,Assumming these are good based on the author is the source of these networks,Aquatic,69,TRUE,2004,,Not_Ecopath_model
+WEB242_,Thompson_and_Townsend_2004,-46.3583333,169.0861111,Assumming these are good based on the author is the source of these networks,Aquatic,81,TRUE,2004,,Not_Ecopath_model
+WEB243_,Thompson_and_Townsend_2004,-45.1299859,169.5248818,Assumming these are good based on the author is the source of these networks,Aquatic,39,TRUE,2004,,Not_Ecopath_model
+WEB244_,Thompson_and_Townsend_2004,-45.9472222,170.0291667,Assumming these are good based on the author is the source of these networks,Aquatic,70,TRUE,2004,,Not_Ecopath_model
+WEB245_,Thompson_and_Townsend_2004,-45.9472222,170.0291667,Assumming these are good based on the author is the source of these networks,Aquatic,55,TRUE,2004,,Not_Ecopath_model
+WEB246_,Thompson_and_Townsend_2004,-45.1299859,169.5248818,Assumming these are good based on the author is the source of these networks,Aquatic,59,TRUE,2004,,Not_Ecopath_model
+WEB247_,Thompson_and_Townsend_2004,-45.1299859,169.5248818,Assumming these are good based on the author is the source of these networks,Aquatic,49,TRUE,2004,,Not_Ecopath_model
+WEB344_,One_network_per_publication,74.46000387,19.10724528,,Terrestrial,29,TRUE,2004,2000,Not_Ecopath_model
+FW_008_,One_network_per_publication,18.425745,-74.998729,,Aquatic,249,TRUE,2005,2000,Ecopath_model
+WEB248_,One_network_per_publication,-45.83419595,170.6190985,,Aquatic,78,TRUE,2005,2000,Not_Ecopath_model
+WEB249_,One_network_per_publication,-26,-56.5,Estimated based on description in paper,Aquatic,40,TRUE,2005,2000,Ecopath_model
+WEB347_,One_network_per_publication,-23.05,-48.633333,,Aquatic,106,TRUE,2005,2000,Not_Ecopath_model
+WEB250_,Angelini_et_al_2006,-25.40164638,-54.59465636,,Aquatic,32,TRUE,2006,,Ecopath_model
+WEB251_,Angelini_et_al_2006,-25.40164638,-54.59465636,,Aquatic,33,TRUE,2006,,Ecopath_model
+WEB265_,One_network_per_publication,22.45128787,120.4335176,,Aquatic,18,TRUE,2006,2000,Ecopath_model
+WEB273_,Parker_and_Huryn_2006,69.016667,-147.716667,,Aquatic,45,TRUE,2006,,Not_Ecopath_model
+WEB274_,Parker_and_Huryn_2006,69.016667,-147.716667,,Aquatic,38,TRUE,2006,,Not_Ecopath_model
+WEB275_,Parker_and_Huryn_2006,69.016667,-147.716667,,Aquatic,42,TRUE,2006,,Not_Ecopath_model
+WEB276_,Parker_and_Huryn_2006,69.016667,-147.716667,,Aquatic,37,TRUE,2006,,Not_Ecopath_model
+carpinteria_,One_network_per_publication,34.3996432,-119.5290144,,Aquatic and terrestrial,127,TRUE,2006,2000,Not_Ecopath_model
+WEB268_,One_network_per_publication,18.79009293,-95.81887307,,Aquatic,30,TRUE,2007,2000,Ecopath_model
+WEB269_,One_network_per_publication,29.55340946,118.9299673,,Aquatic,16,TRUE,2007,2000,Ecopath_model
+WEB340_,One_network_per_publication,-72.84289459,-168.4958437,,Aquatic,24,TRUE,2007,2000,Not_Ecopath_model
+WEB266_,One_network_per_publication,-66.47200907,-63.59364238,Location approximation by description,Aquatic,28,TRUE,2008,2000,Ecopath_model
+WEB310_,One_network_per_publication,12.78171511,77.87392618,,Aquatic,14,TRUE,2009,2000,Ecopath_model
+WEB252_,One_network_per_publication,-18.58466948,-51.98599192,,Aquatic,13,TRUE,2010,2010,Ecopath_model
+WEB253_,One_network_per_publication,-17.37286956,14.21662715,,Aquatic,28,TRUE,2011,2010,Ecopath_model
+WEB257_,Baeta_et_al_2011,40.12413664,-8.840265687,,Aquatic,37,TRUE,2011,,Ecopath_model
+WEB258_,Baeta_et_al_2011,40.12413664,-8.840265687,,Aquatic,32,TRUE,2011,,Ecopath_model
+WEB259_,Baeta_et_al_2011,40.12413664,-8.840265687,,Aquatic,25,TRUE,2011,,Ecopath_model
+WEB260_,Baeta_et_al_2011,40.12413664,-8.840265687,,Aquatic,26,TRUE,2011,,Ecopath_model
+WEB261_,Baeta_et_al_2011,40.12413664,-8.840265687,,Aquatic,21,TRUE,2011,,Ecopath_model
+WEB262_,Baeta_et_al_2011,40.12413664,-8.840265687,,Aquatic,21,TRUE,2011,,Ecopath_model
+WEB270_,One_network_per_publication,42.32166677,-8.619746373,,Aquatic,26,TRUE,2011,2010,Not_Ecopath_model
+WEB278_,Stewart_and_Sprules_2011,43.7,-77.9,,Aquatic,22,TRUE,2011,,Ecopath_model
+WEB279_,Stewart_and_Sprules_2011,43.7,-77.9,,Aquatic,22,TRUE,2011,,Ecopath_model
+WEB289_,One_network_per_publication,11.34939036,39.70952092,,Aquatic,15,TRUE,2011,2010,Ecopath_model
+WEB309_,One_network_per_publication,61.37362578,-2.557859306,,Aquatic,16,TRUE,2011,2010,Not_Ecopath_model
+WEB350_,One_network_per_publication,37.216667,-76.383333,,Aquatic,24,TRUE,2011,2010,Not_Ecopath_model
+WEB345_,One_network_per_publication,47.60091692,9.407807806,,Aquatic,23,TRUE,2012,2010,Not_Ecopath_model
+WEB295_,One_network_per_publication,40.33343373,-122.1214727,"Estimated location based on ""northern California""",Aquatic and terrestrial,113,TRUE,2012,2010,Not_Ecopath_model
+WEB254_,Angelini_et_al_2013,-20.0615735,-55.95079319,,Aquatic,39,TRUE,2013,,Ecopath_model
+WEB255_,Angelini_et_al_2013,-20.0615735,-55.95079319,,Aquatic,39,TRUE,2013,,Ecopath_model
+WEB256_,Angelini_et_al_2013,-20.0615735,-55.95079319,,Aquatic,40,TRUE,2013,,Ecopath_model
+WEB271_,One_network_per_publication,69.116667,19.083333,,Aquatic,50,TRUE,2013,2010,Not_Ecopath_model
+WEB338_,One_network_per_publication,36.54900562,-7.003404984,,Aquatic,42,TRUE,2013,2010,Ecopath_model
