@@ -1,6 +1,12 @@
 # -*- coding: utf-8 -*-
 """
-Script used to create MDS plot from Brimacombe et al. (2023)
+  For recreating the MDS of Brimacombe et al. (2023):
+  On the nature of structure in open empirical food webs 
+
+  This script takes both the pairwise GCD11 matrix 
+  (gcd11.csv) between all networks and information about 
+  each network (metaData_for_mds.csv) and calculates the  
+  mean pairwise GCD-11 between networks
 """
 
 import pandas as pd
@@ -20,7 +26,7 @@ os.chdir(mypath)
 #the distance matrix (DGCD-13 matrix)
 distanceMatrix =  pd.read_csv('gcd11.csv',index_col=0)
 
-test1 = pd.read_csv("metaData_for_mds.csv")
+metaData = pd.read_csv("metaData_for_mds.csv")
 
 #storage for the type of interaction
 arrayTypeOfInteraction  = np.array([])
@@ -31,13 +37,11 @@ for i in distanceMatrix.columns:
         #the name of the file
         nameOfFile = i
         
-        print(i)
-        
         #the name of the file with the .csv removed
         breakTheName = nameOfFile.split(".")
         
         #obtaining the row
-        rowOfInterest = test1[test1["name"].str.match(breakTheName[0])]
+        rowOfInterest = metaData[metaData["name"].str.match(breakTheName[0])]
         
         typeOfInteraction = rowOfInterest.iloc[0]["author"]
         
@@ -97,8 +101,6 @@ for i in distanceMatrix.columns:
 
             if typeOfInteraction == "Terrestrial":
                 typeOfInteraction = int(17)
-                
-                print(typeOfInteraction)
             
         arrayTypeOfInteraction = np.append(arrayTypeOfInteraction, typeOfInteraction)
 
