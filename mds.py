@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 """
   For recreating the MDS of Brimacombe et al. (2023):
-  On the nature of structure in open empirical food webs 
+  On the nature of structure in open empirical food webs.
 
   This script takes both the pairwise GCD11 matrix 
   (gcd11.csv) between all networks and information about 
-  each network (metaData_for_mds.csv) and calculates the  
-  mean pairwise GCD-11 between networks
+  each network (metaData_for_mds.csv) and plots (via MDS) the  
+  mean pairwise GCD-11 between all networks.
 """
 
 import pandas as pd
@@ -23,83 +23,85 @@ from os.path import isfile, join
 mypath = 'D:\\food_web_seperation\\for_upload'
 os.chdir(mypath)
 
-#the distance matrix (DGCD-13 matrix)
+#The distance matrix (GCD-11 matrix)
 distanceMatrix =  pd.read_csv('gcd11.csv',index_col=0)
 
+#The metadata file concerning each network
 metaData = pd.read_csv("metaData_for_mds.csv")
 
-#storage for the type of interaction
+#Storage for the type of interaction each network is
 arrayTypeOfInteraction  = np.array([])
 
 #i is the name of the file
 for i in distanceMatrix.columns:
     
-        #the name of the file
+        #The name of the file
         nameOfFile = i
         
-        #the name of the file with the .csv removed
+        #The name of the file with the ".csv" removed (if it is there)
         breakTheName = nameOfFile.split(".")
         
-        #obtaining the row
+        #Obtaining the metadata row for that network
         rowOfInterest = metaData[metaData["name"].str.match(breakTheName[0])]
         
+        #Obtaining the author designation for that network
         typeOfInteraction = rowOfInterest.iloc[0]["author"]
         
         if typeOfInteraction == "Alcorlo_et_al_2001":
             typeOfInteraction = int(0)
             
-        if typeOfInteraction == "Angelini_et_al_2006":
+        elif typeOfInteraction == "Angelini_et_al_2006":
             typeOfInteraction = int(1)
                 
-        if typeOfInteraction == "Angelini_et_al_2013":
+        elif typeOfInteraction == "Angelini_et_al_2013":
             typeOfInteraction = int(2)
             
-        if typeOfInteraction == "Baeta_et_al_2011":
+        elif typeOfInteraction == "Baeta_et_al_2011":
             typeOfInteraction = int(3)
             
-        if typeOfInteraction == "Beaver_1985":
+        elif typeOfInteraction == "Beaver_1985":
             typeOfInteraction = int(4)
             
-        if typeOfInteraction == "Closs_and_Lake_1994":
+        elif typeOfInteraction == "Closs_and_Lake_1994":
             typeOfInteraction = int(5)
 
-        if typeOfInteraction == "Cohen_et_al_2003":
+        elif typeOfInteraction == "Cohen_et_al_2003":
             typeOfInteraction = int(6)
             
-        if typeOfInteraction == "Fryer_1959":
+        elif typeOfInteraction == "Fryer_1959":
             typeOfInteraction = int(7)
             
-        if typeOfInteraction == "Menge_and_Sutherland_1976":
+        elif typeOfInteraction == "Menge_and_Sutherland_1976":
             typeOfInteraction = int(8)
                 
-        if typeOfInteraction == "Parker_and_Huryn_2006":
+        elif typeOfInteraction == "Parker_and_Huryn_2006":
             typeOfInteraction = int(9)
             
-        if typeOfInteraction == "Stewart_and_Sprules_2011":
+        elif typeOfInteraction == "Stewart_and_Sprules_2011":
             typeOfInteraction = int(10)
             
-        if typeOfInteraction == "Tavares-Cromar_and_Williams_1996":
+        elif typeOfInteraction == "Tavares-Cromar_and_Williams_1996":
             typeOfInteraction = int(11)
             
-        if typeOfInteraction == "Thompson_and_Townsend_2003":
+        elif typeOfInteraction == "Thompson_and_Townsend_2003":
             typeOfInteraction = int(12)
 
-        if typeOfInteraction == "Thompson_and_Townsend_2004":
+        elif typeOfInteraction == "Thompson_and_Townsend_2004":
             typeOfInteraction = int(13)        
         
-        if typeOfInteraction == "Valiela_1974":
+        elif typeOfInteraction == "Valiela_1974":
             typeOfInteraction = int(14)
 
-        if typeOfInteraction == "One_network_per_publication":
+        elif typeOfInteraction == "One_network_per_publication":
             typeOfInteraction = rowOfInterest.iloc[0]["Primary_type"]
             
             if typeOfInteraction == "Aquatic":
                 typeOfInteraction = int(15)
                 
-            if typeOfInteraction == "Aquatic and terrestrial":
+            elif typeOfInteraction == "Aquatic and terrestrial":
                 typeOfInteraction = int(16)
 
-            if typeOfInteraction == "Terrestrial":
+            elif typeOfInteraction == "Terrestrial":
                 typeOfInteraction = int(17)
             
         arrayTypeOfInteraction = np.append(arrayTypeOfInteraction, typeOfInteraction)
@@ -107,9 +109,9 @@ for i in distanceMatrix.columns:
 arrayTypeOfInteraction.astype(int)
 
 
-###############
-##2d plot for entropy
-###############
+#################
+##2d plot for MDS
+#################
 
 embedding=MDS(n_components=2,dissimilarity="euclidean")
 here = embedding.fit_transform(distanceMatrix)
