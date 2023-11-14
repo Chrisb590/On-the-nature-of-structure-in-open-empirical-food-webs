@@ -33,7 +33,6 @@ metadata$year_published <- as.numeric(metadata$year_published)
 metadata$decade_published <- as.factor(metadata$decade_published)
 metadata$Ecopath <- as.factor(metadata$Ecopath)
 
-
 ########################################################
 ##
 ##
@@ -108,7 +107,7 @@ for (i in 1:nrow(each_average_distance)) {
   ecological_intermediate <- ecological[-rows_columns_delete,-rows_columns_delete]
   
   #mean pairwise GCD-11 between specific publication networks
-  each_average_distance[i,2] <- round(mean(ecological_intermediate[lower.tri(ecological_intermediate)]),3)
+  each_average_distance[i,2] <- round(mean(ecological_intermediate[lower.tri(ecological_intermediate)]),2)
   
   #number of networks that are of the specific publication grouping of interest
   each_average_distance[i,3] <- ncol(ecological_intermediate)
@@ -123,7 +122,7 @@ each_average_distance
 
 #weighted mean pairwise GCD-11 of networks from the same publication (in Table 2)
 webs_from_pubs_with_multiple_networks <- each_average_distance[!(each_average_distance$network_number=="One_network_per_publication"),]
-round(weighted.mean(webs_from_pubs_with_multiple_networks$mean_distance,webs_from_pubs_with_multiple_networks$number_of_networks),3)
+round(weighted.mean(webs_from_pubs_with_multiple_networks$mean_distance,webs_from_pubs_with_multiple_networks$number_of_networks),2)
 
 #mean pairwise GCD-11 of networks from publications that only produced a single network (in Table 2)
 webs_from_pubs_with_single_network <- each_average_distance[each_average_distance$network_number=="One_network_per_publication",]
@@ -154,8 +153,8 @@ for (i in 1:nrow(each_average_distance)) {
   
   storage_for_mean_and_sd_network_size[i,1] <- levels(metadata$author)[i]
   intermediate <- metadata[metadata$author==levels(metadata$author)[i],]
-  storage_for_mean_and_sd_network_size[i,2] <- round(mean(intermediate$number_of_nodes),3)
-  storage_for_mean_and_sd_network_size[i,3] <- round(sd(intermediate$number_of_nodes),3)
+  storage_for_mean_and_sd_network_size[i,2] <- round(mean(intermediate$number_of_nodes),2)
+  storage_for_mean_and_sd_network_size[i,3] <- round(sd(intermediate$number_of_nodes),2)
   
 }
 
@@ -167,7 +166,6 @@ for_regression$mean_distance <- as.numeric(for_regression$mean_distance)
 for_regression$mean_number_of_nodes <- as.numeric(for_regression$mean_number_of_nodes)
 for_regression$sd_number_of_nodes <- as.numeric(for_regression$sd_number_of_nodes)
 for_regression <- droplevels(for_regression)
-
 
 summary(lm(for_regression$mean_distance~for_regression$mean_number_of_nodes))
 
@@ -292,7 +290,7 @@ for (i in 1:nrow(each_average_distance)) {
   ecological_intermediate <- ecological[-rows_columns_delete,-rows_columns_delete]
   
   #mean pairwise GCD-11 between specific decade
-  each_average_distance[i,2] <- round(mean(ecological_intermediate[lower.tri(ecological_intermediate)]),3)
+  each_average_distance[i,2] <- round(mean(ecological_intermediate[lower.tri(ecological_intermediate)]),2)
   
   #number of networks of the specific decade
   each_average_distance[i,3] <- ncol(ecological_intermediate)
@@ -306,7 +304,6 @@ each_average_distance <- as.data.frame(each_average_distance)
 each_average_distance$number_of_networks <- as.numeric(each_average_distance$number_of_networks)
 each_average_distance$publication_year <- as.numeric(each_average_distance$publication_year)
 each_average_distance$mean_distance <- as.numeric(each_average_distance$mean_distance)
-
 
 ##
 ##  Same as above but for the mean GCD-11 between networks from publications
@@ -381,7 +378,7 @@ for (i in 1:nrow(each_average_distance_for_publication)) {
   ecological_intermediate <- ecological[-rows_columns_delete,-rows_columns_delete]
   
   #mean pairwise GCD-11 between specific publication's networks
-  each_average_distance_for_publication[i,3] <- round(mean(ecological_intermediate[lower.tri(ecological_intermediate)]),3)
+  each_average_distance_for_publication[i,3] <- round(mean(ecological_intermediate[lower.tri(ecological_intermediate)]),2)
   
   #number of networks that are of the specific publication grouping of interest
   each_average_distance_for_publication[i,4] <- ncol(ecological_intermediate)
@@ -456,11 +453,11 @@ ggplot(data=data_for_plotting,aes(x=publication_year,y=mean_distance,color=Ident
 
 #weighted mean of mean pairwise GCD-11 from publications before 1990 (parts of Table 2)
 each_average_distance_for_publication_before_1990 <- each_average_distance_for_publication[each_average_distance_for_publication$publication_year<1990,]
-round(weighted.mean(each_average_distance_for_publication_before_1990$mean_distance,each_average_distance_for_publication_before_1990$number_of_networks),3)
+round(weighted.mean(each_average_distance_for_publication_before_1990$mean_distance,each_average_distance_for_publication_before_1990$number_of_networks),2)
 
 #weighted mean of mean pairwise GCD-11 from publications after 1990 (parts of Table 2)
 each_average_distance_for_publication_after_1990 <- each_average_distance_for_publication[each_average_distance_for_publication$publication_year>1990,]
-round(weighted.mean(each_average_distance_for_publication_after_1990$mean_distance,each_average_distance_for_publication_after_1990$number_of_networks),3)
+round(weighted.mean(each_average_distance_for_publication_after_1990$mean_distance,each_average_distance_for_publication_after_1990$number_of_networks),2)
 
 ########################################################
 ##
@@ -543,7 +540,7 @@ for (i in 1:nrow(each_average_distance)) {
   ecological_intermediate <- ecological[-rows_columns_delete,-rows_columns_delete]
   
   #mean pairwise GCD-11 between specific ecosystem networks
-  each_average_distance[i,2] <- round(mean(ecological_intermediate[lower.tri(ecological_intermediate)]),3)
+  each_average_distance[i,2] <- round(mean(ecological_intermediate[lower.tri(ecological_intermediate)]),2)
   
   #number of networks that are of the specific ecosystem grouping of interest
   each_average_distance[i,3] <- ncol(ecological_intermediate)
@@ -556,7 +553,6 @@ each_average_distance$number_of_networks <- as.numeric(each_average_distance$num
 
 #parts of Table 1
 each_average_distance
-
 
 ########################################################
 ##
@@ -643,8 +639,7 @@ for (j in 1:ncol(ecological)) {
 ecological_intermediate <- ecological[-c(rows_columns_delete,rows_delete),-c(rows_columns_delete,columns_delete)]
 
 #mean pairwise GCD-11 between "aquatic" and "aquatic and terrestrial" (parts of Table 1)
-round(mean(ecological_intermediate),3)
-
+round(mean(ecological_intermediate),2)
 
 ##
 ##  Mean pairwise GCD-11 between "Aquatic" and 
@@ -720,7 +715,7 @@ for (j in 1:ncol(ecological)) {
 ecological_intermediate <- ecological[-c(rows_columns_delete,rows_delete),-c(rows_columns_delete,columns_delete)]
 
 #mean pairwise GCD-11 between "aquatic" and "aquatic and terrestrial" (parts of Table 1)
-round(mean(ecological_intermediate),3)
+round(mean(ecological_intermediate),2)
 
 ##
 ##  Mean pairwise GCD-11 between "Aquatic and terrestrial" 
@@ -796,7 +791,7 @@ for (j in 1:ncol(ecological)) {
 ecological_intermediate <- ecological[-c(rows_columns_delete,rows_delete),-c(rows_columns_delete,columns_delete)]
 
 #mean pairwise distance between "aquatic" and "aquatic and terrestrial" (parts of Table 1)
-round(mean(ecological_intermediate),3)
+round(mean(ecological_intermediate),2)
 
 ########################################################
 ##
@@ -992,7 +987,7 @@ for (i in 1:72){
   average_distance_per_realization[row_counter_for_average_distance_per_realization,1] <- i
     
   #mean pairwise GCD-11 between networks that are Ecopath
-  average_distance_per_realization[row_counter_for_average_distance_per_realization,2] <- round(mean(ecological_intermediate[lower.tri(ecological_intermediate)]),3)
+  average_distance_per_realization[row_counter_for_average_distance_per_realization,2] <- round(mean(ecological_intermediate[lower.tri(ecological_intermediate)]),2)
     
   #number of networks that are Ecopath
   average_distance_per_realization[row_counter_for_average_distance_per_realization,3] <- ncol(ecological_intermediate)
@@ -1003,7 +998,7 @@ for (i in 1:72){
 
 #value for mean pairwise GCD-11 between Ecopath networks
 #with publication effect removed (S1 Appendix Section  S1.2)
-round(mean(average_distance_per_realization[,2]),3)
+round(mean(average_distance_per_realization[,2]),2)
 
 ########################################################
 ##
@@ -1205,7 +1200,7 @@ for (i in 1:sample_times){
   average_distance_per_realization[row_counter_for_average_distance_per_realization,1] <- i
   
   #mean pairwise GCD-11 between networks each from a different publication
-  average_distance_per_realization[row_counter_for_average_distance_per_realization,2] <- round(mean(ecological_intermediate[lower.tri(ecological_intermediate)]),3)
+  average_distance_per_realization[row_counter_for_average_distance_per_realization,2] <- round(mean(ecological_intermediate[lower.tri(ecological_intermediate)]),2)
   
   #number of networks that are of the realization
   average_distance_per_realization[row_counter_for_average_distance_per_realization,3] <- ncol(ecological_intermediate)
@@ -1216,4 +1211,4 @@ for (i in 1:sample_times){
 
 #value for mean pairwise GCD-11 between aquatic non-Ecopath networks
 #with publication effect removed (S1 Appendix Section  S1.2)
-round(mean(average_distance_per_realization[,2]),3)
+round(mean(average_distance_per_realization[,2]),2)
