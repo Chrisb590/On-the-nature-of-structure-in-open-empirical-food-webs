@@ -113,7 +113,7 @@ arrayTypeOfInteraction.astype(int)
 ##2d plot for MDS
 #################
 
-embedding=MDS(n_components=2,dissimilarity="euclidean")
+embedding=MDS(n_components=2,dissimilarity="precomputed")
 here = embedding.fit_transform(distanceMatrix)
 from mpl_toolkits import mplot3d 
 import numpy as np 
