@@ -1,4 +1,4 @@
- <font size="+3">This repository contains all files used in <ins>On the nature of structure in open empirical food webs</ins>. </font>
+ <font size="+3">This repository contains all files used in <ins>On the nature of structure in collections of freely available food webs</ins>. </font>
 
 <ul>
   <li>Code to reproduce all numerics in the main manuscript (i.e., mean pairwise GCD-11) is in <ins>brimacombe_et_al_2024.R</ins>.</li>
