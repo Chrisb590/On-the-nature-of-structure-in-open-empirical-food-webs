@@ -1,7 +1,8 @@
 ########################################################
 #
-# For recreating the results of Brimacombe et al. (2023):
-# On the nature of structure in open empirical food webs 
+# For recreating the results of Brimacombe et al. (2024):
+# On the nature of structure in collections of freely 
+# available food webs 
 #
 # This script takes both the pairwise GCD11 matrix 
 # (gcd11.csv) between all networks and information about 
@@ -10,7 +11,7 @@
 #
 ########################################################
 
-#clearning environment
+#clearing environment
 rm(list = ls())
 
 #loading necessary packages
@@ -21,10 +22,10 @@ library(dplyr)
 #set working directory where gcd11.csv file is
 setwd(".")
 
-#reading in the pairwise DGCD-13 matrix
+#reading in the pairwise GCD-11 matrix
 ecological <- as.matrix(read.csv("gcd11.csv",row.names = 1))
 
-#the asscoiated metadata of all networks
+#the associated metadata of all networks
 metadata <- as.matrix(read.csv("metaData.csv"))
 metadata <- as.data.frame(metadata)
 metadata$author <- as.factor(metadata$author)
@@ -39,7 +40,7 @@ metadata$Ecopath <- as.factor(metadata$Ecopath)
 ##
 ##  Used to evaluate the mean pairwise GCD-11 between 
 ##  networks from the same publication grouping as
-##  shown in parts of Table 2, Table S2
+##  shown in parts of Table 2, Table S5
 ##
 ##
 ##
@@ -114,7 +115,7 @@ for (i in 1:nrow(each_average_distance)) {
   
 }
 
-#mean pairwise GCD-11 (in Table S2)
+#mean pairwise GCD-11 (in Table S5)
 each_average_distance <- as.data.frame(each_average_distance)
 each_average_distance$mean_distance <- as.numeric(each_average_distance$mean_distance)
 each_average_distance$number_of_networks <- as.numeric(each_average_distance$number_of_networks)
@@ -136,7 +137,7 @@ webs_from_pubs_with_single_network
 ##  function of the mean number of nodes per network
 ##  and standard deviation in the number of nodes per
 ##  network for publications that provided multiple
-##  networks (in Figure S1)
+##  networks (in Figure S8)
 ##
 ##
 ##
@@ -159,7 +160,7 @@ for (i in 1:nrow(each_average_distance)) {
 }
 
 #merging information about the mean pairwise GCD-11 between networks from the same publication
-#and their respective mean number of nodes and standard devation in the number of nodes
+#and their respective mean number of nodes and standard deviation in the number of nodes
 for_regression <- merge(each_average_distance,storage_for_mean_and_sd_network_size,by="network_number")
 for_regression <- for_regression[!(for_regression$network_number=="One_network_per_publication"),]
 for_regression$mean_distance <- as.numeric(for_regression$mean_distance)
@@ -305,6 +306,7 @@ each_average_distance$number_of_networks <- as.numeric(each_average_distance$num
 each_average_distance$publication_year <- as.numeric(each_average_distance$publication_year)
 each_average_distance$mean_distance <- as.numeric(each_average_distance$mean_distance)
 
+
 ##
 ##  Same as above but for the mean GCD-11 between networks from publications
 ##  that provided multiple networks
@@ -393,7 +395,7 @@ each_average_distance_for_publication$number_of_networks <- as.numeric(each_aver
 #data needed for plotting
 data_for_plotting <- rbind(each_average_distance_for_publication[,2:5],each_average_distance)
 
-#need to weight interpolation that is to be used in the ploot for 2003, 2006, 2011
+#need to weight interpolation that is to be used in the plot for 2003, 2006, 2011
 new_for_interpolation <- matrix(,nrow=length(unique(each_average_distance_for_publication$publication_year)),ncol=2)
 colnames(new_for_interpolation) <- c("year","weighted_average")
 
@@ -466,6 +468,7 @@ round(weighted.mean(each_average_distance_for_publication_after_1990$mean_distan
 ##  Used to evaluate the mean pairwise GCD-11 between
 ##  networks from the same ecological system (Parts
 ##  of Table 1)
+##
 ##
 ##
 ########################################################
@@ -563,6 +566,7 @@ each_average_distance
 ##  of Table 1)
 ##
 ##
+##
 ########################################################
 
 ##
@@ -574,12 +578,16 @@ each_average_distance
 #type we are looking for (i.e., "Terrestrial")
 rows_columns_delete <- c()
 
-#columns to delete which are networks we are type we are 
-#trying to compare too (i.e., "Aquatic")
+#columns to delete which are the network type we are 
+#trying to compare too (i.e., "Aquatic") so as not to
+#compare networks twice (i.e, they are in both the rows
+#and columns)
 columns_delete <- c()
 
-#rows to delete which are networks we are type we are 
-#trying to compare too (i.e., "Aquatic and terrestrial")
+#rows to delete which are the network type we are 
+#trying to compare too (i.e., "Aquatic and terrestrial") 
+#so as not to compare networks twice (i.e, they are in 
+#both the rows and columns)
 rows_delete <- c()
 
 for (j in 1:ncol(ecological)) {
@@ -650,12 +658,16 @@ round(mean(ecological_intermediate),2)
 #type we are looking for (i.e., "Aquatic and terrestrial")
 rows_columns_delete <- c()
 
-#columns to delete which are networks we are type we are 
-#trying to compare too (i.e., "Aquatic")
+#columns to delete which are the network type we are 
+#trying to compare too (i.e., "Aquatic") so as not to
+#compare networks twice (i.e, they are in both the rows
+#and columns)
 columns_delete <- c()
 
-#rows to delete which are networks we are type we are 
-#trying to compare too (i.e., "Terrestrial")
+#rows to delete which are the network type we are 
+#trying to compare too (i.e., "Terrestrial") so as 
+#not to compare networks twice (i.e, they are in 
+#both the rows and columns)
 rows_delete <- c()
 
 for (j in 1:ncol(ecological)) {
@@ -673,7 +685,7 @@ for (j in 1:ncol(ecological)) {
     #if the row name in the matrix is the network we are looking for
     if (as.character(rowOfInterest$name) == network_name) {
       
-      #if the row is a terrestrial network, we will need 
+      #if the row is a Aquatic and terrestrial network, we will need 
       #to delete it
       if (rowOfInterest$Primary_type == "Aquatic and terrestrial") {
         
@@ -714,7 +726,7 @@ for (j in 1:ncol(ecological)) {
 #deleting networks that are not of interest
 ecological_intermediate <- ecological[-c(rows_columns_delete,rows_delete),-c(rows_columns_delete,columns_delete)]
 
-#mean pairwise GCD-11 between "aquatic" and "aquatic and terrestrial" (parts of Table 1)
+#mean pairwise GCD-11 between "aquatic" and "terrestrial" (parts of Table 1)
 round(mean(ecological_intermediate),2)
 
 ##
@@ -726,12 +738,16 @@ round(mean(ecological_intermediate),2)
 #type we are looking for (i.e., "Aquatic")
 rows_columns_delete <- c()
 
-#columns to delete which are networks we are type we are 
-#trying to compare too (i.e., "Aquatic and terrestrial")
+#columns to delete which are the network type we are 
+#trying to compare too (i.e., "Aquatic and terrestrial") 
+#so as not to compare networks twice (i.e, they are in 
+#both the rows and columns)
 columns_delete <- c()
 
-#rows to delete which are networks we are type we are 
-#trying to compare too (i.e., "Terrestrial")
+#rows to delete which are the network type we are 
+#trying to compare too (i.e., "Terrestrial") so as 
+#not to compare networks twice (i.e, they are in 
+#both the rows and columns)
 rows_delete <- c()
 
 for (j in 1:ncol(ecological)) {
@@ -749,7 +765,7 @@ for (j in 1:ncol(ecological)) {
     #if the row name in the matrix is the network we are looking for
     if (as.character(rowOfInterest$name) == network_name) {
       
-      #if the row is a terrestrial network, we will need 
+      #if the row is a Aquatic network, we will need 
       #to delete it
       if (rowOfInterest$Primary_type == "Aquatic") {
         
@@ -789,8 +805,8 @@ for (j in 1:ncol(ecological)) {
 
 #deleting networks that are not of interest
 ecological_intermediate <- ecological[-c(rows_columns_delete,rows_delete),-c(rows_columns_delete,columns_delete)]
-
-#mean pairwise distance between "aquatic" and "aquatic and terrestrial" (parts of Table 1)
+ 
+#mean pairwise distance between "aquatic and terrestrial" and "terrestrial" (parts of Table 1)
 round(mean(ecological_intermediate),2)
 
 ########################################################
@@ -798,8 +814,221 @@ round(mean(ecological_intermediate),2)
 ##
 ##
 ##  Used to evaluate the mean pairwise GCD-11 between
+##  networks that are aquatic and not created using 
+##  Ecopath (Appendix S1.6.1)
+##
+##
+##
+########################################################
+
+##
+##  Randomly obtaining one network per publication grouping
+##
+
+#number of times you want to randomly sample/number of realizations
+sample_times <- 200
+
+#Closs_and_Lake_1994 non-Ecopath aquatic networks
+Closs_and_Lake_1994_random_samples <- matrix(0,sample_times,ncol(metadata))
+colnames(Closs_and_Lake_1994_random_samples) <- c(colnames(metadata))
+Closs_and_Lake_1994 <-  metadata[metadata$author=="Closs_and_Lake_1994",]
+
+for (i in 1:sample_times) {
+  
+  Closs_and_Lake_1994_random_samples[i,] <- as.matrix(sample_n(Closs_and_Lake_1994, 1))
+  
+}
+
+#Thompson_and_Townsend_2003 non-Ecopath aquatic networks
+Thompson_and_Townsend_2003_random_samples <- matrix(0,sample_times,ncol(metadata))
+colnames(Thompson_and_Townsend_2003_random_samples) <- c(colnames(metadata))
+Thompson_and_Townsend_2003 <-  metadata[metadata$author=="Thompson_and_Townsend_2003",]
+
+for (i in 1:sample_times) {
+  
+  Thompson_and_Townsend_2003_random_samples[i,] <- as.matrix(sample_n(Thompson_and_Townsend_2003, 1))
+  
+}
+
+#Alcorlo_et_al_2001 non-Ecopath aquatic networks
+Alcorlo_et_al_2001_random_samples <- matrix(0,sample_times,ncol(metadata))
+colnames(Alcorlo_et_al_2001_random_samples) <- c(colnames(metadata))
+Alcorlo_et_al_2001 <-  metadata[metadata$author=="Alcorlo_et_al_2001",]
+
+for (i in 1:sample_times) {
+  
+  Alcorlo_et_al_2001_random_samples[i,] <- as.matrix(sample_n(Alcorlo_et_al_2001, 1))
+  
+}
+
+#Menge_and_Sutherland_1976 non-Ecopath aquatic networks
+Menge_and_Sutherland_1976_random_samples <- matrix(0,sample_times,ncol(metadata))
+colnames(Menge_and_Sutherland_1976_random_samples) <- c(colnames(metadata))
+Menge_and_Sutherland_1976 <-  metadata[metadata$author=="Menge_and_Sutherland_1976",]
+
+for (i in 1:sample_times) {
+  
+  Menge_and_Sutherland_1976_random_samples[i,] <- as.matrix(sample_n(Menge_and_Sutherland_1976, 1))
+  
+}
+
+#Tavares_Cromar_and_Williams_1996 non-Ecopath aquatic networks
+Tavares_Cromar_and_Williams_1996_random_samples <- matrix(0,sample_times,ncol(metadata))
+colnames(Tavares_Cromar_and_Williams_1996_random_samples) <- c(colnames(metadata))
+Tavares_Cromar_and_Williams_1996 <-  metadata[metadata$author=="Tavares-Cromar_and_Williams_1996",]
+
+for (i in 1:sample_times) {
+  
+  Tavares_Cromar_and_Williams_1996_random_samples[i,] <- as.matrix(sample_n(Tavares_Cromar_and_Williams_1996, 1))
+  
+}
+
+#Parker_and_Huryn_2006 non-Ecopath aquatic networks
+Parker_and_Huryn_2006_random_samples <- matrix(0,sample_times,ncol(metadata))
+colnames(Parker_and_Huryn_2006_random_samples) <- c(colnames(metadata))
+Parker_and_Huryn_2006 <-  metadata[metadata$author=="Parker_and_Huryn_2006",]
+
+for (i in 1:sample_times) {
+  
+  Parker_and_Huryn_2006_random_samples[i,] <- as.matrix(sample_n(Parker_and_Huryn_2006, 1))
+  
+}
+
+#Thompson_and_Townsend_2004 non-Ecopath aquatic networks
+Thompson_and_Townsend_2004_random_samples <- matrix(0,sample_times,ncol(metadata))
+colnames(Thompson_and_Townsend_2004_random_samples) <- c(colnames(metadata))
+Thompson_and_Townsend_2004 <-  metadata[metadata$author=="Thompson_and_Townsend_2004",]
+
+for (i in 1:sample_times) {
+  
+  Thompson_and_Townsend_2004_random_samples[i,] <- as.matrix(sample_n(Thompson_and_Townsend_2004, 1))
+  
+}
+
+#Cohen_et_al_2003 non-Ecopath aquatic networks
+Cohen_et_al_2003_random_samples <- matrix(0,sample_times,ncol(metadata))
+colnames(Cohen_et_al_2003_random_samples) <- c(colnames(metadata))
+Cohen_et_al_2003 <-  metadata[metadata$author=="Cohen_et_al_2003",]
+
+for (i in 1:sample_times) {
+  
+  Cohen_et_al_2003_random_samples[i,] <- as.matrix(sample_n(Cohen_et_al_2003, 1))
+  
+}
+
+#Fryer_1959 non-Ecopath aquatic networks
+Fryer_1959_random_samples <- matrix(0,sample_times,ncol(metadata))
+colnames(Fryer_1959_random_samples) <- c(colnames(metadata))
+Fryer_1959 <-  metadata[metadata$author=="Fryer_1959",]
+
+for (i in 1:sample_times) {
+  
+  Fryer_1959_random_samples[i,] <- as.matrix(sample_n(Fryer_1959, 1))
+  
+}
+
+
+#for aquatic non-Ecopath networks sourced from publications 
+#that provided only a single network each
+single_aquatic_not_ecopath_food_webs <- metadata[metadata$author=="One_network_per_publication",]
+single_aquatic_not_ecopath_food_webs <- single_aquatic_not_ecopath_food_webs[single_aquatic_not_ecopath_food_webs$Primary_type=="Aquatic",]
+single_aquatic_not_ecopath_food_webs <- single_aquatic_not_ecopath_food_webs[single_aquatic_not_ecopath_food_webs$Ecopath=="Not_Ecopath_model",]
+
+#storage for mean pairwise GCD-11 between networks that are aquatic non-Ecopath 
+#from particular realization
+average_distance_per_realization <- matrix(,nrow=sample_times,ncol=3)
+colnames(average_distance_per_realization) <- c("realization","mean_distance","number_of_networks")
+
+#row counter for average_distance_per_realization
+row_counter_for_average_distance_per_realization <- 1
+
+for (i in 1:sample_times){
+  
+  #obtaining each networks from publications that were randomly sampled for a specific realization
+  realization <- as.data.frame(rbind(single_aquatic_not_ecopath_food_webs,Closs_and_Lake_1994_random_samples[i,], Thompson_and_Townsend_2003_random_samples[i,],
+                                     Alcorlo_et_al_2001_random_samples[i,], Menge_and_Sutherland_1976_random_samples[i,], Tavares_Cromar_and_Williams_1996_random_samples[i,],
+                                     Parker_and_Huryn_2006_random_samples[i,], Thompson_and_Townsend_2004_random_samples[i,],Cohen_et_al_2003_random_samples[i,],
+                                     Fryer_1959_random_samples[i,]))
+  
+  #list of rows and columns to delete which are not
+  #of interest right now
+  rows_columns_delete <- c()
+  
+  #looping through the GCD-11 matrix
+  for (j in 1:ncol(ecological)) {
+    
+    #the name of the row we are looking through
+    network_name <- row.names(ecological)[j]
+    
+    found = FALSE
+    rowNumber = 1
+    
+    #looping to find what number the network is
+    while (found != TRUE) {
+      
+      #if we exceed the number of rows in the realization, this network should be removed
+      if (rowNumber>nrow(realization)) {
+        
+        rows_columns_delete <- c(rows_columns_delete,j)
+        
+        found = TRUE
+        
+      }
+      
+      #if we have not exceed the number of rows in the realization
+      if (rowNumber<=nrow(realization)) {
+        
+        rowOfInterest <- as.data.frame(realization[rowNumber,])
+        
+        #if the row name in the matrix is the network we are looking for
+        #we want to keep this network
+        if (as.character(rowOfInterest$name) == network_name) {
+          
+          found = TRUE
+          
+          #otherwise we have not found the network in the metadata list
+        } else {
+          
+          rowNumber = rowNumber + 1
+          
+        }
+        
+      }
+      
+      
+    }
+    
+  }
+  
+  #deleting networks that are not the grouping of interest now
+  #(pairwise GCD-11 matrix is symmetric so we can delete the same 
+  #rows and columns)
+  ecological_intermediate <- ecological[-rows_columns_delete,-rows_columns_delete]
+  
+  #realization number
+  average_distance_per_realization[row_counter_for_average_distance_per_realization,1] <- i
+  
+  #mean pairwise GCD-11 between networks each from a different publication
+  average_distance_per_realization[row_counter_for_average_distance_per_realization,2] <- round(mean(ecological_intermediate[lower.tri(ecological_intermediate)]),2)
+  
+  #number of networks that are of the realization
+  average_distance_per_realization[row_counter_for_average_distance_per_realization,3] <- ncol(ecological_intermediate)
+  
+  row_counter_for_average_distance_per_realization = row_counter_for_average_distance_per_realization + 1
+  
+}
+
+#value for mean pairwise GCD-11 between aquatic non-Ecopath networks
+#with publication effect removed (S1 Appendix Section  S1.6.1)
+round(mean(average_distance_per_realization[,2]),2)
+
+########################################################
+##
+##
+##
+##  Used to evaluate the mean pairwise GCD-11 between
 ##  networks that are aquatic and created using 
-##  Ecopath (Appendix S1.2)
+##  Ecopath (Appendix S1.6.2)
 ##
 ##
 ##
@@ -810,7 +1039,7 @@ round(mean(ecological_intermediate),2)
 ##  (i.e., removing for publication effect)
 ##
 
-#Angelini_et_al_2006 Ecopath netweorks
+#Angelini_et_al_2006 Ecopath networks
 Angelini_et_al_2006_storage <- matrix(,nrow=0,ncol(metadata))
 colnames(Angelini_et_al_2006_storage) <- c(colnames(metadata))
 Angelini_et_al_2006 <-  metadata[metadata$author=="Angelini_et_al_2006",]
@@ -997,218 +1226,5 @@ for (i in 1:72){
 }
 
 #value for mean pairwise GCD-11 between Ecopath networks
-#with publication effect removed (S1 Appendix Section  S1.2)
-round(mean(average_distance_per_realization[,2]),2)
-
-########################################################
-##
-##
-##
-##  Used to evaluate the mean pairwise GCD-11 between
-##  networks that are aquatic and ad not created using 
-##  Ecopath (Appendix S1.2)
-##
-##
-##
-########################################################
-
-##
-##  Randomly obtaining one network per publication grouping
-##
-
-#number of times you want to randomly sample/number of realizations
-sample_times <- 200
-
-#Closs_and_Lake_1994 non-Ecopath aquatic networks
-Closs_and_Lake_1994_random_samples <- matrix(0,sample_times,ncol(metadata))
-colnames(Closs_and_Lake_1994_random_samples) <- c(colnames(metadata))
-Closs_and_Lake_1994 <-  metadata[metadata$author=="Closs_and_Lake_1994",]
-
-for (i in 1:sample_times) {
-  
-  Closs_and_Lake_1994_random_samples[i,] <- as.matrix(sample_n(Closs_and_Lake_1994, 1))
-  
-}
-
-#Thompson_and_Townsend_2003 non-Ecopath aquatic networks
-Thompson_and_Townsend_2003_random_samples <- matrix(0,sample_times,ncol(metadata))
-colnames(Thompson_and_Townsend_2003_random_samples) <- c(colnames(metadata))
-Thompson_and_Townsend_2003 <-  metadata[metadata$author=="Thompson_and_Townsend_2003",]
-
-for (i in 1:sample_times) {
-  
-  Thompson_and_Townsend_2003_random_samples[i,] <- as.matrix(sample_n(Thompson_and_Townsend_2003, 1))
-  
-}
-
-#Alcorlo_et_al_2001 non-Ecopath aquatic networks
-Alcorlo_et_al_2001_random_samples <- matrix(0,sample_times,ncol(metadata))
-colnames(Alcorlo_et_al_2001_random_samples) <- c(colnames(metadata))
-Alcorlo_et_al_2001 <-  metadata[metadata$author=="Alcorlo_et_al_2001",]
-
-for (i in 1:sample_times) {
-  
-  Alcorlo_et_al_2001_random_samples[i,] <- as.matrix(sample_n(Alcorlo_et_al_2001, 1))
-  
-}
-
-#Menge_and_Sutherland_1976 non-Ecopath aquatic networks
-Menge_and_Sutherland_1976_random_samples <- matrix(0,sample_times,ncol(metadata))
-colnames(Menge_and_Sutherland_1976_random_samples) <- c(colnames(metadata))
-Menge_and_Sutherland_1976 <-  metadata[metadata$author=="Menge_and_Sutherland_1976",]
-
-for (i in 1:sample_times) {
-  
-  Menge_and_Sutherland_1976_random_samples[i,] <- as.matrix(sample_n(Menge_and_Sutherland_1976, 1))
-  
-}
-
-#Tavares_Cromar_and_Williams_1996 non-Ecopath aquatic networks
-Tavares_Cromar_and_Williams_1996_random_samples <- matrix(0,sample_times,ncol(metadata))
-colnames(Tavares_Cromar_and_Williams_1996_random_samples) <- c(colnames(metadata))
-Tavares_Cromar_and_Williams_1996 <-  metadata[metadata$author=="Tavares-Cromar_and_Williams_1996",]
-
-for (i in 1:sample_times) {
-  
-  Tavares_Cromar_and_Williams_1996_random_samples[i,] <- as.matrix(sample_n(Tavares_Cromar_and_Williams_1996, 1))
-  
-}
-
-#Parker_and_Huryn_2006 non-Ecopath aquatic networks
-Parker_and_Huryn_2006_random_samples <- matrix(0,sample_times,ncol(metadata))
-colnames(Parker_and_Huryn_2006_random_samples) <- c(colnames(metadata))
-Parker_and_Huryn_2006 <-  metadata[metadata$author=="Parker_and_Huryn_2006",]
-
-for (i in 1:sample_times) {
-  
-  Parker_and_Huryn_2006_random_samples[i,] <- as.matrix(sample_n(Parker_and_Huryn_2006, 1))
-  
-}
-
-#Thompson_and_Townsend_2004 non-Ecopath aquatic networks
-Thompson_and_Townsend_2004_random_samples <- matrix(0,sample_times,ncol(metadata))
-colnames(Thompson_and_Townsend_2004_random_samples) <- c(colnames(metadata))
-Thompson_and_Townsend_2004 <-  metadata[metadata$author=="Thompson_and_Townsend_2004",]
-
-for (i in 1:sample_times) {
-  
-  Thompson_and_Townsend_2004_random_samples[i,] <- as.matrix(sample_n(Thompson_and_Townsend_2004, 1))
-  
-}
-
-#Cohen_et_al_2003 non-Ecopath aquatic networks
-Cohen_et_al_2003_random_samples <- matrix(0,sample_times,ncol(metadata))
-colnames(Cohen_et_al_2003_random_samples) <- c(colnames(metadata))
-Cohen_et_al_2003 <-  metadata[metadata$author=="Cohen_et_al_2003",]
-
-for (i in 1:sample_times) {
-  
-  Cohen_et_al_2003_random_samples[i,] <- as.matrix(sample_n(Cohen_et_al_2003, 1))
-  
-}
-
-#Fryer_1959 non-Ecopath aquatic networks
-Fryer_1959_random_samples <- matrix(0,sample_times,ncol(metadata))
-colnames(Fryer_1959_random_samples) <- c(colnames(metadata))
-Fryer_1959 <-  metadata[metadata$author=="Fryer_1959",]
-
-for (i in 1:sample_times) {
-  
-  Fryer_1959_random_samples[i,] <- as.matrix(sample_n(Fryer_1959, 1))
-  
-}
-
-
-#for aquatic non-Ecopath networks sourced from publications 
-#that provided only a single network each
-single_aquatic_not_ecopath_food_webs <- metadata[metadata$author=="One_network_per_publication",]
-single_aquatic_not_ecopath_food_webs <- single_aquatic_not_ecopath_food_webs[single_aquatic_not_ecopath_food_webs$Primary_type=="Aquatic",]
-single_aquatic_not_ecopath_food_webs <- single_aquatic_not_ecopath_food_webs[single_aquatic_not_ecopath_food_webs$Ecopath=="Not_Ecopath_model",]
-
-#storage for mean pairwise GCD-11 between networks that are aquatic non-Ecopath 
-#from particular realization
-average_distance_per_realization <- matrix(,nrow=sample_times,ncol=3)
-colnames(average_distance_per_realization) <- c("realization","mean_distance","number_of_networks")
-
-#row counter for average_distance_per_realization
-row_counter_for_average_distance_per_realization <- 1
-
-for (i in 1:sample_times){
-  
-  #obtaining each networks from publications that were randomly sampled for a specific realization
-  realization <- as.data.frame(rbind(single_aquatic_not_ecopath_food_webs,Closs_and_Lake_1994_random_samples[i,], Thompson_and_Townsend_2003_random_samples[i,],
-                                    Alcorlo_et_al_2001_random_samples[i,], Menge_and_Sutherland_1976_random_samples[i,], Tavares_Cromar_and_Williams_1996_random_samples[i,],
-                                    Parker_and_Huryn_2006_random_samples[i,], Thompson_and_Townsend_2004_random_samples[i,],Cohen_et_al_2003_random_samples[i,],
-                                    Fryer_1959_random_samples[i,]))
-  
-  #list of rows and columns to delete which are not
-  #of interest right now
-  rows_columns_delete <- c()
-  
-  #looping through the GCD-11 matrix
-  for (j in 1:ncol(ecological)) {
-    
-    #the name of the row we are looking through
-    network_name <- row.names(ecological)[j]
-    
-    found = FALSE
-    rowNumber = 1
-    
-    #looping to find what number the network is
-    while (found != TRUE) {
-      
-      #if we exceed the number of rows in the realization, this network should be removed
-      if (rowNumber>nrow(realization)) {
-        
-        rows_columns_delete <- c(rows_columns_delete,j)
-        
-        found = TRUE
-        
-      }
-      
-      #if we have not exceed the number of rows in the realization
-      if (rowNumber<=nrow(realization)) {
-        
-        rowOfInterest <- as.data.frame(realization[rowNumber,])
-        
-        #if the row name in the matrix is the network we are looking for
-        #we want to keep this network
-        if (as.character(rowOfInterest$name) == network_name) {
-          
-          found = TRUE
-          
-          #otherwise we have not found the network in the metadata list
-        } else {
-          
-          rowNumber = rowNumber + 1
-          
-        }
-        
-      }
-      
-      
-    }
-    
-  }
-  
-  #deleting networks that are not the grouping of interest now
-  #(pairwise GCD-11 matrix is symmetric so we can delete the same 
-  #rows and columns)
-  ecological_intermediate <- ecological[-rows_columns_delete,-rows_columns_delete]
-  
-  #realization number
-  average_distance_per_realization[row_counter_for_average_distance_per_realization,1] <- i
-  
-  #mean pairwise GCD-11 between networks each from a different publication
-  average_distance_per_realization[row_counter_for_average_distance_per_realization,2] <- round(mean(ecological_intermediate[lower.tri(ecological_intermediate)]),2)
-  
-  #number of networks that are of the realization
-  average_distance_per_realization[row_counter_for_average_distance_per_realization,3] <- ncol(ecological_intermediate)
-  
-  row_counter_for_average_distance_per_realization = row_counter_for_average_distance_per_realization + 1
-  
-}
-
-#value for mean pairwise GCD-11 between aquatic non-Ecopath networks
-#with publication effect removed (S1 Appendix Section  S1.2)
+#with publication effect removed (S1 Appendix Section  S1.6.2)
 round(mean(average_distance_per_realization[,2]),2)
