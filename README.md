@@ -1,15 +1,14 @@
- <font size="+3">This repository contains all files used in <ins>On the nature of structure in collections of freely available food webs</ins>. </font>
+ <font size="+3">This repository contains all files used in <ins>On the nature of structure in freely available food webs</ins>. </font>
 
 <ul>
   <li>Code to reproduce all numerics in the main manuscript (i.e., mean pairwise GCD-11) is in <ins>brimacombe_et_al_2024.R</ins>.</li>
   <li>Code to reproduce all median numerics in the appendix is in <ins>brimacombe_et_al_2024_median.R</ins>.</li>
   <li>Code to reproduce the multidimensional plot (Figure 3) is in <ins>mds.py</ins>.</li>
   <li>All metadata for the associated networks is in <ins>metadata.csv</ins>.</li>
-  <li><ins>metadata_for_mds.csv</ins> is the metadata file without bibtex citations, used in <ins>mds.py</ins> (Python doesn't like bibtex code).</li>
   <li>All computed pairwise graphlet correlated distance-11s between networks is in <ins>gcd11.csv</ins>.</li>
   <li>All networks used in the manuscript are in the folder <ins>networks</ins>.
   <ul>
-    <li>Networks are categorized and organized into folders based on their respective source, which can be traced back to one of three distinct repositories: (1) https://www.canberra.edu.au/globalwebdb/, (2) http://www.ecologia.ib.usp.br/iwdb/resources.html, and (3) https://www.web-of-life.es/.
+    <li>Networks are categorized and organized into folders based on their respective source, which can be traced back to one of four distinct repositories: (1) https://www.canberra.edu.au/globalwebdb/, (2) http://www.ecologia.ib.usp.br/iwdb/resources.html, (3) https://www.web-of-life.es/, and (4) https://idata.idiv.de/ddm/Data/ShowData/283.
     <ul>
       <li>Within each source's folder, networks are organized into two folders: 
         <ul>
