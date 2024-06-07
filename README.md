@@ -1,8 +1,7 @@
  <font size="+3">This repository contains all files used in <ins>On the nature of structure in freely available food webs</ins>. </font>
 
 <ul>
-  <li>Code to reproduce all numerics in the main manuscript (i.e., mean pairwise GCD-11) is in <ins>brimacombe_et_al_2024.R</ins>.</li>
-  <li>Code to reproduce all median numerics in the appendix is in <ins>brimacombe_et_al_2024_median.R</ins>.</li>
+  <li>Code to reproduce all numerics in the manuscript are in the accompanying R scipts.</li>
   <li>Code to reproduce the multidimensional plot (Figure 3) is in <ins>mds.py</ins>.</li>
   <li>All metadata for the associated networks is in <ins>metadata.csv</ins>.</li>
   <li>All computed pairwise graphlet correlated distance-11s between networks is in <ins>gcd11.csv</ins>.</li>

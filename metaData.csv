@@ -1,1320 +1,275 @@
-name,author,latitude,longitude,Notes,Primary_type,number_of_nodes,is_connected,year_published,decade_published,Ecopath,citation
-WEB22_,One_network_per_publication,74.37483614,19.10243909,,Aquatic and terrestrial,26,TRUE,1923,1920,Not_Ecopath_model,"""@article{Summerhayes,
-  author = {Summerhayes, V. S. and Elton, C. S.},
-  title = {Bear {I}sland},
-  journal = {Journal of Ecology},
-  number = {2},
-  pages = {216--233},
-  volume = {11},
-  year = {1923}
-}"""
-WEB151_,One_network_per_publication,51.34118467,-0.364508055,,Terrestrial,23,TRUE,1926,1920,Not_Ecopath_model,"""@article{Richards,
-  author = {Richards, O. W.},
-  title = {Studies on the Ecology of {E}nglish {H}eaths: {III}. {A}nimal Communities of the Felling and Burn Successions at {O}xshott {H}eath, {S}urrey},
-  journal = {Journal of Ecology},
-  number = {2},
-  pages = {244--281},
-  volume = {14},
-  year = {1926}
-}"""
-WEB210_,One_network_per_publication,53.84937148,-1.096038121,Approx location based on multiple rivers,Aquatic,60,TRUE,1929,1920,Not_Ecopath_model,"""@article{Percival,
-  author = {Percival, E. and Whitehead, H.},
-  title = {A Quantitative Study of the Fauna of Some Types of Stream-Bed},
-  journal = {Journal of Ecology},
-  number = {2},
-  pages = {282--314},
-  volume = {17},
-  year = {1929}
-}"""
-WEB211_,One_network_per_publication,44.333333,-80.25,,Aquatic,34,TRUE,1934,1930,Not_Ecopath_model,"""@incollection{Ricker,
-  author = {Ricker, W. E.},
-  title = {An ecological classification of certain {O}ntario streams},
-  bookTitle = {Publications of the Ontario Fisheries Research Laboratory, No. 49},
-  publisher = {Biological Series, No. 37},
-  address = {University of Toronto, CAN},
-  pages = {7--114},
-  year = {1934}
-}"""
-WEB6_,One_network_per_publication,38.20870424,-121.6577822,,Aquatic and terrestrial,25,TRUE,1935,1930,Not_Ecopath_model,"""@article{MacGinitie,
-  author = {MacGinitie, G. E.},
-  title = {Ecological Aspects of a {C}alifornia Marine Estuary},
-  journal = {The American Midland Naturalist},
-  number = {5},
-  volume = {16},
-  pages = {629--765},
-  year = {1935}
-}"""
-WEB108_,One_network_per_publication,36.616667,-121.9,,Aquatic,14,TRUE,1937,1930,Not_Ecopath_model,"""@article{Hewatt,
-  author = {Hewatt, W. G.},
-  title = {Ecological Studies on Selected Marine Intertidal Communities of {M}onterey {B}ay, {C}alifornia},
-  journal = {The American Midland Naturalist},
-  number = {2},
-  pages = {161--206},
-  volume = {18},
-  year = {1937}
-}"""
-WEB59_,One_network_per_publication,40.13821304,-88.14151711,,Terrestrial,30,TRUE,1945,1940,Not_Ecopath_model,"""@article{Twomey,
-  author = {Twomey, A. C.},
-  title = {The Bird Population of an Elm-Maple Forest with Special Reference to Aspection, Territorialism, and Coactions},
-  journal = {Ecological Monographs},
-  number = {2},
-  pages = {173--205},
-  volume = {15},
-  year = {1945}
-}"""
-WEB89_,One_network_per_publication,52.12530284,0.036478909,,Aquatic,18,TRUE,1948,1940,Not_Ecopath_model,"""@article{Hartley,
-  author = {Hartley, P. H. T. },
-  title = {Food and Feeding Relationships in a Community of Fresh-Water Fishes},
-  journal = {Journal of Animal Ecology},
-  number = {1},
-  pages = {1--14},
-  volume = {17},
-  year = {1948}
-}"""
-WEB213_,One_network_per_publication,52.98816887,-3.463556345,Approx location based on map,Aquatic,34,TRUE,1949,1940,Not_Ecopath_model,"""@article{Badcock,
-  author = {Badcock, R. M.},
-  title = {Studies in Stream Life in Tributaries of the {W}elsh {D}ee},
-  journal = {Journal of Animal Ecology},
-  number = {2},
-  pages = {193--208},
-  volume = {18},
-  year = {1949}
-}"""
-WEB34_,One_network_per_publication,51.90389096,-3.811778424,Guessing location based on description in paper (map),Aquatic,12,TRUE,1949,1940,Not_Ecopath_model,"""@article{Erichsen_Jones,
-  author = {Erichsen Jones, J. R. },
-  title = {A Further Ecological Study of Calcareous Streams in the `{B}lack {M}ountain' District of {S}outh {W}ales},
-  journal = {Journal of Animal Ecology},
-  number = {2},
-  pages = {142--159},
-  volume = {18},
-  year = {1949}
-}"""
-WEB63_,One_network_per_publication,52.39819508,-3.975650185,,Aquatic,18,TRUE,1950,1950,Not_Ecopath_model,"""@article{Erichsen_Jones_1950,
-  author = {Erichsen Jones, J. R.},
-  title = {A Further Ecological Study of the {R}iver {R}heidol: The Food of the Common Insects of the Main-Stream},
-  journal = {Journal of Animal Ecology},
-  number = {2},
-  pages = {159--174},
-  volume = {19},
-  year = {1950}
-}"""
-WEB29_,One_network_per_publication,88.00490026,14.36401014,,Aquatic,22,TRUE,1954,1950,Not_Ecopath_model,"""@article{Dunbar,
-  author = {Dunbar, M. J.},
-  title = {Arctic and Subarctic Marine Ecology: Immediate Problems},
-  journal = {Arctic},
-  number = {2},
-  pages = {75--90},
-  volume = {6},
-  year = {1953}
-}"""
-WEB4_,One_network_per_publication,37.97770036,-122.345592,,Aquatic and terrestrial,13,TRUE,1956,1950,Not_Ecopath_model,"""@article{Johnston,
-  author = {Johnston, R. F.},
-  title = {Predation by Short-Eared Owls on a Salicornia Salt Marsh},
-  journal = {The Wilson Bulletin},
-  number = {2},
-  volume = {68},
-  pages = {91--102},
-  year = {1956}
-}"""
-WEB28_,One_network_per_publication,-45.86518687,170.6727998,,Terrestrial,43,TRUE,1956,1950,Not_Ecopath_model,"""@article{Paviour-Smith,
-  author = {Paviour-Smith, K.},
-  title = {The Biotic Community of a Salt Meadow in {N}ew {Z}ealand},
-  journal = {Transactions of the Royal Society of New Zealand},
-  number = {3},
-  pages = {525--554},
-  volume = {83},
-  year = {1956}
-}"""
-WEB204_,Fryer_1959,-12.35886971,34.40115924,,Aquatic,33,TRUE,1959,,Not_Ecopath_model,"""@article{Fryer,
-  author = {Fryer, G.},
-  title = {The trophic interrelationships and ecology of some littoral communities of {L}ake {N}yasa with especial reference to the fishes, and a discussion of the evolution of a group of rock-frequenting {C}ichlidae},
-  journal = {Proceedings of the Zoological Society of London},
-  volume = {132},
-  number = {2},
-  pages = {153--281},
-  year = {1959}
-}"""
-WEB33_,Fryer_1959,-12.35886971,34.40115924,,Aquatic,33,TRUE,1959,,Not_Ecopath_model,"""@article{Fryer,
-  author = {Fryer, G.},
-  title = {The trophic interrelationships and ecology of some littoral communities of {L}ake {N}yasa with especial reference to the fishes, and a discussion of the evolution of a group of rock-frequenting {C}ichlidae},
-  journal = {Proceedings of the Zoological Society of London},
-  volume = {132},
-  number = {2},
-  pages = {153--281},
-  year = {1959}
-}"""
-WEB38_,Fryer_1959,-12.35886971,34.40115924,,Aquatic,31,TRUE,1959,,Not_Ecopath_model,"""@article{Fryer,
-  author = {Fryer, G.},
-  title = {The trophic interrelationships and ecology of some littoral communities of {L}ake {N}yasa with especial reference to the fishes, and a discussion of the evolution of a group of rock-frequenting {C}ichlidae},
-  journal = {Proceedings of the Zoological Society of London},
-  volume = {132},
-  number = {2},
-  pages = {153--281},
-  year = {1959}
-}"""
-WEB39_,Fryer_1959,-12.35886971,34.40115924,,Aquatic,37,TRUE,1959,,Not_Ecopath_model,"""@article{Fryer,
-  author = {Fryer, G.},
-  title = {The trophic interrelationships and ecology of some littoral communities of {L}ake {N}yasa with especial reference to the fishes, and a discussion of the evolution of a group of rock-frequenting {C}ichlidae},
-  journal = {Proceedings of the Zoological Society of London},
-  volume = {132},
-  number = {2},
-  pages = {153--281},
-  year = {1959}
-}"""
-WEB17_,One_network_per_publication,7.325339824,168.6271385,Approx location,Aquatic,14,TRUE,1960,1960,Not_Ecopath_model,"""@article{Hiatt,
-  author = {Hiatt, R. W. and Strasburg, D. W.},
-  title = {Ecological Relationships of the Fish Fauna on Coral Reefs of the {M}arshall {I}slands},
-  journal = {Ecological Monographs},
-  number = {1},
-  pages = {65--127},
-  volume = {30},
-  year = {1960}
-}"""
-WEB58_,One_network_per_publication,55.5461059,38.51214402,Guess location based on description,Aquatic and terrestrial,18,TRUE,1961,1960,Not_Ecopath_model,"""@article{Smirnov,
-  author = {Smirnov, N. N.},
-  title = {Food cycles in sphagnous bogs},
-  journal = {Hydrobiologia},
-  volume = {17},
-  pages = {175--182},
-  year = {1961}
-}"""
-WEB40_,One_network_per_publication,5.21207729,101.2494383,Guessing location,Terrestrial,11,TRUE,1962,1960,Not_Ecopath_model,"""@article{Harrison,
-  author = {Harrison, J. L.},
-  title = {The Distribution of Feeding Habits Among Animals in a Tropical Rain Forest},
-  journal = {Journal of Animal Ecology},
-  number = {1},
-  pages = {53--63},
-  volume = {31},
-  year = {1962}
-}"""
-WEB208_,One_network_per_publication,37.933333,-86.116667,,Aquatic,11,TRUE,1963,1960,Not_Ecopath_model,"""@article{Minckley,
-  author = {Minckley, W. L.},
-  title = {The Ecology of a Spring Stream: Doe {R}un, {M}eade {C}ounty, {K}entucky},
-  journal = {Wildlife Monographs},
-  number = {11},
-  pages = {3--124},
-  year = {1963}
-}"""
-WEB18_,One_network_per_publication,1.083333,154.75,,Aquatic and terrestrial,27,TRUE,1963,1960,Not_Ecopath_model,"""@article{Niering,
-  author = {Niering, W. A.},
-  title = {Terrestrial Ecology of {K}apingamarangi {A}toll, {C}aroline {I}slands},
-  journal = {Ecological Monographs},
-  number = {2},
-  pages = {131--160},
-  volume = {33},
-  year = {1963}
-}"""
-WEB35_,One_network_per_publication,37.95096838,-86.05520976,Location estimated from paper description,Aquatic,13,TRUE,1967,1960,Not_Ecopath_model,"""@article{Minshall,
-  author = {Minshall, G. W.},
-  title = {Role of Allochthonous Detritus in the Trophic Structure of a Woodland Springbrook Community},
-  journal = {Ecology},
-  volume = {48},
-  number = {1},
-  pages = {139--149},
-  year = {1967}
-}"""
-WEB37_,One_network_per_publication,32.866667,-117.266667,,Aquatic,25,TRUE,1967,1960,Not_Ecopath_model,"""@article{Clarke,
-  author = {Clarke, T. A. and Fleehsig, A. O. and Grigg, R. W.},
-  title = {Ecological Studies during {P}roject {S}ealab {II}},
-  journal = {Science},
-  volume = {157},
-  number = {3795},
-  pages = {1381-1389},
-  year = {1967}
-}"""
-WEB3_,One_network_per_publication,40.90720537,-72.64440342,"Location estimated based on ""Long Island Estuary""",Aquatic and terrestrial,20,TRUE,1967,1960,Not_Ecopath_model,"""@article{Woodwell,
-  author = {Woodwell, G. M.},
-  title = {Toxic Substances and Ecological Cycles},
-  journal = {Scientific American},
-  number = {3},
-  pages = {24--31},
-  volume = {216},
-  year = {1967}
-}"""
-WEB45_,One_network_per_publication,41.38164435,-91.34878486,,Aquatic,11,TRUE,1968,1960,Not_Ecopath_model,"""@article{Tilly,
-  author = {Tilly, L. J.},
-  title = {The Structure and Dynamics of {C}one {S}pring},
-  journal = {Ecological Monographs},
-  number = {2},
-  pages = {169--197},
-  volume = {38},
-  year = {1968}
-}"""
-WEB67_,One_network_per_publication,40.40367996,-91.37402321,,Aquatic and terrestrial,21,TRUE,1968,1960,Not_Ecopath_model,"""@article{Carlson,
-  author = {Carlson, C. A.},
-  title = {Summer Bottom Fauna of the {M}ississippi {R}iver, above Dam 19, {K}eokuk, {I}owa},
-  journal = {Ecology},
-  volume = {49},
-  number = {1},
-  pages = {162--169},
-  year = {1968}
-}"""
-WEB199_,One_network_per_publication,40.82058083,-74.61099704,"Location arbitrarly chosen based on ""New York""",Terrestrial,32,TRUE,1969,1960,Not_Ecopath_model,"""@article{Valiela1969,
-  author = {Valiela, I.},
-  title = {An Experimental Study of the Mortality Factors of Larval {M}usca autumnalis {D}e{G}eer},
-  journal = {Ecological Monographs},
-  number = {2},
-  pages = {199--225},
-  volume = {39},
-  year = {1969}
-}"""
-WEB84_,One_network_per_publication,42.46030407,-84.01023821,,Aquatic and terrestrial,12,TRUE,1972,1970,Not_Ecopath_model,"""@article{Wilbur,
-  author = {Wilbur, H. M.},
-  title = {Competition, Predation, and the Structure of the {A}mbystoma-{R}ana Sylvatica Community},
-  journal = {Ecology},
-  volume = {53},
-  number = {1},
-  pages = {3--21},
-  year = {1972}
-}"""
-WEB123_,One_network_per_publication,40.77896647,-104.005213,,Terrestrial,133,TRUE,1972,1970,Not_Ecopath_model,"""@techreport{Harris,
-  author = {Harris, L. D. and Paur, L. F.},
-  title = {A Quantitative food web analysis of a shortgrass community},
-  institution = {No. 154, Grassland Biome. (U.S. International Biological Program)},
-  year = {1972}
-}"""
-WEB117_,One_network_per_publication,9.18191966,-79.89737506,,Aquatic,13,TRUE,1973,1970,Not_Ecopath_model,"""@article{Zaret,
-  author = {Zaret, T. M. and Paine, R. T.},
-  title = {Species Introduction in a Tropical Lake},
-  journal = {Science},
-  volume = {182},
-  number = {4111},
-  pages = {449--455},
-  year = {1973}
-}"""
-WEB207_,One_network_per_publication,41.95,-112.666667,,Aquatic,32,TRUE,1973,1970,Not_Ecopath_model,"""@article{Koslucher,
-  author = {Koslucher, D. G. and Minshall, G. W.},
-  title = {Food Habits of Some Benthic Invertebrates in a Northern Cool-Desert Stream ({D}eep {C}reek, {C}urlew {V}alley, {I}daho-{U}tah)},
-  journal = {Transactions of the American Microscopical Society},
-  number = {3},
-  pages = {441--452},
-  volume = {92},
-  year = {1973}
-}"""
-WEB43_,One_network_per_publication,32.95,-117.266667,,Aquatic,21,TRUE,1974,1970,Not_Ecopath_model,"""@article{Rosenthal,
-  title={Ecology and natural history of a stand of giant kelp, {M}acrocystis pyrifera, off {D}el {M}ar, {C}alifornia},
-  author={Rosenthal, R. J. and Clarke, W. D. and Dayton, P. K.},
-  journal={Fishery Bulletin},
-  volume={72},
-  number={3},
-  pages={670--684},
-  year={1974}
-}"""
-WEB200_,Valiela_1974,42.60613493,-76.59154498,,Terrestrial,26,TRUE,1974,,Not_Ecopath_model,"""@article{Valiela,
-  author = {Valiela, I.},
-  journal = {The American Midland Naturalist},
-  number = {2},
-  pages = {370--385},
-  title = {Composition, Food Webs and Population Limitation in Dung Arthropod Communities During Invasion and Succession},
-  volume = {92},
-  year = {1974}
-}"""
-WEB201_,Valiela_1974,42.60613493,-76.59154498,,Terrestrial,35,TRUE,1974,,Not_Ecopath_model,"""@article{Valiela,
-  author = {Valiela, I.},
-  journal = {The American Midland Naturalist},
-  number = {2},
-  pages = {370--385},
-  title = {Composition, Food Webs and Population Limitation in Dung Arthropod Communities During Invasion and Succession},
-  volume = {92},
-  year = {1974}
-}"""
-WEB155_,One_network_per_publication,51.77006589,-1.33022903,Location estimation based on Askew 1961,Terrestrial,16,TRUE,1975,1970,Not_Ecopath_model,"""@incollection{Askew1975,
-  author = {Askew, R. R.},
-  editor = {Price, P. W.},
-  title = {The organisation of {C}halcid-dominated parasitoid communities centred upon endophytic hosts},
-  bookTitle = {Evolutionary Strategies of Parasitic Insects and Mites},
-  year = {1975},
-  publisher = {Springer US},
-  address = {Boston, MA},
-  pages = {130--153}
-}"""
-WEB12_,Menge_and_Sutherland_1976,48.53895137,-123.1251691,Location copied from proected area (but should be nearby I think),Aquatic,13,TRUE,1976,,Not_Ecopath_model,"""@article{Menge1976,
-  author = {Menge, B. A. and Sutherland, J. P.},
-  title = {Species Diversity Gradients: Synthesis of the Roles of Predation, Competition, and Temporal Heterogeneity},
-  journal = {The American Naturalist},
-  volume = {110},
-  number = {973},
-  pages = {351--369},
-  year = {1976}
-}"""
-WEB13_,Menge_and_Sutherland_1976,48.53895137,-123.1251691,,Aquatic,13,TRUE,1976,,Not_Ecopath_model,"""@article{Menge1976,
-  author = {Menge, B. A. and Sutherland, J. P.},
-  title = {Species Diversity Gradients: Synthesis of the Roles of Predation, Competition, and Temporal Heterogeneity},
-  journal = {The American Naturalist},
-  volume = {110},
-  number = {973},
-  pages = {351--369},
-  year = {1976}
-}"""
-WEB121_,One_network_per_publication,53.29071538,7.168240647,,Aquatic,12,TRUE,1977,1970,Not_Ecopath_model,"""@article{Van_Es,
-  title = {A preliminary carbon budget for a part of the {E}ms estuary: the {D}ollard},
-  author = {van Es, F. B.},
-  journal = {Helgol{\""a}nder wissenschaftliche Meeresuntersuchungen},
-  volume = {30},
-  pages = {283--294},
-  year = {1977}
-}"""
-WEB42_,One_network_per_publication,0,-155,Very rough approx location (large area in ocean),Aquatic,16,TRUE,1978,1970,Not_Ecopath_model,"""@article{Vinogradov,
-  author = {Vinogradov, M. E. and Shushkina, E. A.},
-  title = {Some development patterns of plankton communities in the upwelling areas of the {P}acific {O}cean},
-  journal = {Marine Biology},
-  volume = {48},
-  pages = {357--366},
-  year = {1978}
-}"""
-WEB154_,One_network_per_publication,40.11703458,-88.26298753,Location estimated from description,Terrestrial,15,TRUE,1978,1970,Not_Ecopath_model,"""@article{Mayse,
-  author = {Mayse, M. A. and Price, P. W.},
-  title = {Seasonal development of soybean arthropod communities in east central {I}llinois},
-  journal = {Agro-Ecosystems},
-  volume = {4},
-  number = {3},
-  pages = {387--405},
-  year = {1978}
-}"""
-WEB107_,One_network_per_publication,39.76962577,-74.10931078,,Aquatic,10,TRUE,1979,1970,Not_Ecopath_model,"""@article{Peterson,
-  title = {The importance of predation and competition in organizing the intertidal epifaunal communities of {B}arnegat {I}nlet, {N}ew {J}ersey},
-  author = {Peterson, C. H.},
-  journal = {Oecologia},
-  volume = {39},
-  pages = {1--24},
-  year = {1979}
-}"""
-WEB88_,One_network_per_publication,64.01048884,23.99909622,,Aquatic,16,TRUE,1979,1970,Not_Ecopath_model,"""@phdthesis{Kuusela,
-  author = {Kuusela, K.},
-  title = {Early summer ecology and community structure of the macrozoobenthos on stones in the J\""{a}v\""{a}j\""{a}nkoski Rapids on the River Lestijoki, Finland},
-  year = {1979},
-  type = {Thesis},
-  school = {University of Oulu}
-}"""
-WEB98_,One_network_per_publication,-23.616667,15.016667,,Terrestrial,17,TRUE,1980,1980,Not_Ecopath_model,"""@article{Holm,
-  author = {Holm, E. and Scholtz, C. H.},
-  title = {Structure and pattern of the {N}amib {D}esert dune ecosystem at {G}obabeb },
-  journal = {Madoqua},
-  volume = {1980},
-  number = {1},
-  pages = {3--39},
-  year = {1980}
-}"""
-WEB105_,One_network_per_publication,42.67082385,-70.6712113,,Aquatic,10,TRUE,1982,1980,Not_Ecopath_model,"""@article{Edwards,
-  author = {Edwards, D. C. and Conover, D. O. and Sutter III, F.},
-  title = {Mobile Predators and the Structure of Marine Intertidal Communities},
-  journal = {Ecology},
-  number = {4},
-  pages = {1175--1180},
-  volume = {63},
-  year = {1982}
-}"""
-WEB87_,One_network_per_publication,72.68692752,-77.70815814,"Assumed location based on ""Pond Inlet""",Aquatic,12,TRUE,1982,1980,Not_Ecopath_model,"""@article{Bradstreet,
- author = {Bradstreet, M. S. W. and Cross, W. E.},
- title = {Trophic Relationships at High {A}rctic Ice Edges},
- journal = {Arctic},
- number = {1},
- pages = {1--12},
- publisher = {Arctic Institute of North America},
- volume = {35},
- year = {1982}
-}"""
-WEB72_,One_network_per_publication,46.02752365,-75.92447236,Loction estimated,Aquatic,17,TRUE,1983,1980,Not_Ecopath_model,"""@phdthesis{Baril,
-  author = {Baril, A.},
-  title = {Effect of the water mite Piona constricta on planktonic community structure},
-  year = {1983},
-  type = {Thesis},
-  school = {University of Ottawa}
-}"""
-WEB152_,One_network_per_publication,28.32618135,-99.4072224,Names have own columns despite diagram with all species as one entity (different than others),Terrestrial,23,TRUE,1984,1980,Not_Ecopath_model,"""@article{Whittaker,
-  author = {Whittaker, P. L.},
-  title = {The Insect Fauna of Mistletoe ({P}horadendron tomentosum, {L}oranthaceae) in Southern {T}exas},
-  journal = {The Southwestern Naturalist},
-  number = {4},
-  pages = {435--444},
-  volume = {29},
-  year = {1984}
-}"""
-WEB205_,One_network_per_publication,51.07328374,0.049804756,Estimated from descriiption of another paper,Aquatic,24,TRUE,1985,1980,Not_Ecopath_model,"""@article{HILDREW,
-  author = {Hildrew, A. G. and Townsend, C. R. and Hasham, A.},
-  title = {The predatory {C}hironomidae of an iron-rich stream: Feeding ecology and food web structure},
-  journal = {Ecological Entomology},
-  volume = {10},
-  number = {4},
-  pages = {403--413},
-  year = {1985}
-}"""
-WEB131_,Beaver_1985,-19.3139734,46.42338947,Broadly defining location based on country,Aquatic and terrestrial,19,TRUE,1985,,Not_Ecopath_model,"""@article{beaver1985,
-  author = {Beaver, R. A.},
-  title = {Geographical variation in food web structure in {N}epenthes pitcher plants},
-  journal = {Ecological Entomology},
-  volume = {10},
-  number = {3},
-  pages = {241--248},
-  year = {1985}
-}"""
-WEB132_,Beaver_1985,3.82014031,101.0740644,Broadly defining location based on country,Aquatic and terrestrial,18,TRUE,1985,,Not_Ecopath_model,"""@article{beaver1985,
-  author = {Beaver, R. A.},
-  title = {Geographical variation in food web structure in {N}epenthes pitcher plants},
-  journal = {Ecological Entomology},
-  volume = {10},
-  number = {3},
-  pages = {241--248},
-  year = {1985}
-}"""
-WEB134_,Beaver_1985,-19.3139734,46.42338947,Broadly defining location based on country,Aquatic and terrestrial,11,TRUE,1985,,Not_Ecopath_model,"""@article{beaver1985,
-  author = {Beaver, R. A.},
-  title = {Geographical variation in food web structure in {N}epenthes pitcher plants},
-  journal = {Ecological Entomology},
-  volume = {10},
-  number = {3},
-  pages = {241--248},
-  year = {1985}
-}"""
-WEB104_,One_network_per_publication,8.803911952,-79.51683487,,Aquatic,27,TRUE,1986,1980,Not_Ecopath_model,"""@article{Menge_1986,
-  author = {Menge, B. A. and Lubchenco, J. and Gaines, S. D. and Ashkenas, L. R.},
-  title = {A Test of the {M}enge-{S}utherland Model of Community Organization in a Tropical Rocky Intertidal Food Web},
-  journal = {Oecologia},
-  number = {1},
-  pages = {75--89},
-  volume = {71},
-  year = {1986}
-}"""
-WEB343_,One_network_per_publication,-28.2,153.116667,,Aquatic and terrestrial,12,TRUE,1987,1980,Not_Ecopath_model,"""@article{Kitching,
-  author = {Kitching, R. L.},
-  journal = {Oikos},
-  number = {3},
-  pages = {280--288},
-  title = {Spatial and Temporal Variation in Food Webs in Water-Filled Treeholes},
-  volume = {48},
-  year = {1987}
-}"""
-WEB351_,One_network_per_publication,53.666667,-0.983333,,Aquatic and terrestrial,35,TRUE,1989,1980,Not_Ecopath_model,"""@article{Warren,
-  author = {Warren, P. H.},
-  title = {Spatial and Temporal Variation in the Structure of a Freshwater Food Web},
-  journal = {Oikos},
-  number = {3},
-  pages = {299--311},
-  volume = {55},
-  year = {1989}
-}"""
-WEB354_,One_network_per_publication,18.0695339,-63.05466325,,Terrestrial,44,TRUE,1993,1990,Not_Ecopath_model,"""@article{Goldwasser,
-  author = {Goldwasser, L. and Roughgarden, J.},
-  title = {Construction and Analysis of a Large {C}aribbean Food Web},
-  journal = {Ecology},
-  volume = {74},
-  number = {4},
-  pages = {1216--1233},
-  year = {1993}
-}"""
-WEB306_,Closs_and_Lake_1994,-37.56616196,144.3976879,,Aquatic,49,TRUE,1994,,Not_Ecopath_model,"""@article{Closs1994,
-  author = {Closs, G. P. and Lake, P. S.},
-  title = {Spatial and Temporal Variation in the Structure of an Intermittent-Stream Food Web},
-  journal = {Ecological Monographs},
-  volume = {64},
-  number = {1},
-  pages = {1--21},
-  year = {1994}
-}"""
-WEB307_,Closs_and_Lake_1994,-37.56616196,144.3976879,,Aquatic,52,TRUE,1994,,Not_Ecopath_model,"""@article{Closs1994,
-  author = {Closs, G. P. and Lake, P. S.},
-  title = {Spatial and Temporal Variation in the Structure of an Intermittent-Stream Food Web},
-  journal = {Ecological Monographs},
-  volume = {64},
-  number = {1},
-  pages = {1--21},
-  year = {1994}
-}"""
-WEB308_,Closs_and_Lake_1994,-37.56616196,144.3976879,,Aquatic,51,TRUE,1994,,Not_Ecopath_model,"""@article{Closs1994,
-  author = {Closs, G. P. and Lake, P. S.},
-  title = {Spatial and Temporal Variation in the Structure of an Intermittent-Stream Food Web},
-  journal = {Ecological Monographs},
-  volume = {64},
-  number = {1},
-  pages = {1--21},
-  year = {1994}
-}"""
-WEB281_,Tavares-Cromar_and_Williams_1996,43.966667,-79.083333,,Aquatic,39,TRUE,1996,,Not_Ecopath_model,"""@article{Tavares_Cromar,
-  author = {Tavares-Cromar, A. F. and Williams, D. D.},
-  title = {The Importance of Temporal Resolution in Food Web Analysis: Evidence from a Detritus-Based Stream},
-  journal = {Ecological Monographs},
-  volume = {66},
-  number = {1},
-  pages = {91--113},
-  year = {1996}
-}"""
-WEB285_,Tavares-Cromar_and_Williams_1996,43.966667,-79.083333,,Aquatic,37,TRUE,1996,,Not_Ecopath_model,"""@article{Tavares_Cromar,
-  author = {Tavares-Cromar, A. F. and Williams, D. D.},
-  title = {The Importance of Temporal Resolution in Food Web Analysis: Evidence from a Detritus-Based Stream},
-  journal = {Ecological Monographs},
-  volume = {66},
-  number = {1},
-  pages = {91--113},
-  year = {1996}
-}"""
-WEB296_,One_network_per_publication,-24.94652999,47.00313721,,Aquatic and terrestrial,10,TRUE,1996,1990,Not_Ecopath_model,"""@article{Ratsirarson,
-  author = {Ratsirarson, J. and Silander, J. A.},
-  title = {Structure and Dynamics in {N}epenthes madagascariensis Pitcher Plant Micro-Communities},
-  journal = {Biotropica},
-  number = {2},
-  pages = {218--227},
-  volume = {28},
-  year = {1996}
-}"""
-WEB263_,One_network_per_publication,46.06643009,-89.63966404,Approximated based on description,Aquatic and terrestrial,77,TRUE,1997,1990,Not_Ecopath_model,"""@article{schneider,
-  title = {Predation and food web structure along a habitat duration gradient},
-  author = {Schneider, Daniel W},
-  journal = {Oecologia},
-  volume = {110},
-  pages = {567--575},
-  year = {1997}
-}"""
-WEB357_,One_network_per_publication,-21.71614787,13.78223939,Location estimated,Aquatic,29,TRUE,1998,1990,Not_Ecopath_model,"""@article{Yodzis,
-  author = {Yodzis, P.},
-  title = {Local trophodynamics and the interaction of marine mammals and fisheries in the {B}enguela ecosystem},
-  journal = {Journal of Animal Ecology},
-  volume = {67},
-  number = {4},
-  pages = {635--658},
-  year = {1998}
-}"""
-WEB288_,One_network_per_publication,30.09779731,-84.256862,,Aquatic,48,TRUE,1999,1990,Ecopath_model,"""@article{Christian,
-  author = {Christian, R. R. and Luczkovich, J. J.},
-  title = {Organizing and understanding a winter’s seagrass foodweb network through effective trophic levels},
-  journal = {Ecological Modelling},
-  volume = {117},
-  number = {1},
-  pages = {99--124},
-  year = {1999}
-}"""
-WEB311_,One_network_per_publication,51.41104153,-0.639705222,,Terrestrial,154,TRUE,2000,2000,Not_Ecopath_model,"""@article{Memmott,
-  author = {Memmott, J. and Martinez, N. D. and Cohen, J. E.},
-  title = {Predators, parasitoids and pathogens: Species richness, trophic generality and body sizes in a natural food web},
-  journal = {Journal of Animal Ecology},
-  volume = {69},
-  number = {1},
-  pages = {1--15},
-  year = {2000}
-}"""
-WEB334_,Alcorlo_et_al_2001,41.443333,-0.261667,,Aquatic,13,TRUE,2001,,Not_Ecopath_model,"""@incollection{Alcorlo2001,
-  author = {Alcorlo, P. and Baltan{\'a}s, A. and Montes, C.},
-  editor = {Melack, John M. and Jellison, Robert and Herbst, David B.},
-  title = {Food-web structure in two shallow salt lakes in {L}os {M}onegros ({NE} {S}pain): Energetic vs dynamic constraints},
-  bookTitle = {Saline Lakes: Publications from the 7th International Conference on Salt Lakes, held in Death Valley National Park, California, U.S.A., September 1999},
-  year = {2001},
-  publisher = {Springer Netherlands},
-  address = {Dordrecht},
-  pages = {307--316},
-  isbn = {978-94-017-2934-5},
-  doi = {10.1007/978-94-017-2934-5_28},
-}"""
-WEB335_,Alcorlo_et_al_2001,41.434722,-0.267778,,Aquatic,15,TRUE,2001,,Not_Ecopath_model,"""@incollection{Alcorlo2001,
-  author = {Alcorlo, P. and Baltan{\'a}s, A. and Montes, C.},
-  editor = {Melack, John M. and Jellison, Robert and Herbst, David B.},
-  title = {Food-web structure in two shallow salt lakes in {L}os {M}onegros ({NE} {S}pain): Energetic vs dynamic constraints},
-  bookTitle = {Saline Lakes: Publications from the 7th International Conference on Salt Lakes, held in Death Valley National Park, California, U.S.A., September 1999},
-  year = {2001},
-  publisher = {Springer Netherlands},
-  address = {Dordrecht},
-  pages = {307--316},
-  isbn = {978-94-017-2934-5},
-  doi = {10.1007/978-94-017-2934-5_28},
-}"""
-WEB264_,One_network_per_publication,39.0833333,-96.58333333,,Aquatic,12,TRUE,2002,2000,Not_Ecopath_model,"""@article{Stagliano,
-  author = {Stagliano, D. M. and Whiles, M. R.},
-  title = {Macroinvertebrate Production and Trophic Structure in a Tallgrass Prairie Headwater Stream},
-  journal = {Journal of the North American Benthological Society},
-  volume = {21},
-  number = {1},
-  pages = {97--113},
-  year = {2002}
-}"""
-WEB214_,Thompson_and_Townsend_2003,44.6819444,-69.1425,Assumming these are good based on the author is the source of these networks,Aquatic,76,TRUE,2003,,Not_Ecopath_model,"""@article{Thompson2003,
-  author = {Thompson, R. M. and Townsend, C. R.},
-  title = {Impacts on stream food webs of native and exotic forest: An intercontinental comparison},
-  journal = {Ecology},
-  volume = {84},
-  number = {1},
-  pages = {145--161},
-  year = {2003}
-}"""
-WEB215_,Thompson_and_Townsend_2003,44.6811111,-69.12722222,Assumming these are good based on the author is the source of these networks,Aquatic,106,TRUE,2003,,Not_Ecopath_model,"""@article{Thompson2003,
-  author = {Thompson, R. M. and Townsend, C. R.},
-  title = {Impacts on stream food webs of native and exotic forest: An intercontinental comparison},
-  journal = {Ecology},
-  volume = {84},
-  number = {1},
-  pages = {145--161},
-  year = {2003}
-}"""
-WEB216_,Thompson_and_Townsend_2003,35.0472222,-83.43611111,Assumming these are good based on the author is the source of these networks,Aquatic,59,TRUE,2003,,Not_Ecopath_model,"""@article{Thompson2003,
-  author = {Thompson, R. M. and Townsend, C. R.},
-  title = {Impacts on stream food webs of native and exotic forest: An intercontinental comparison},
-  journal = {Ecology},
-  volume = {84},
-  number = {1},
-  pages = {145--161},
-  year = {2003}
-}"""
-WEB217_,Thompson_and_Townsend_2003,35.0638889,-83.43194444,Assumming these are good based on the author is the source of these networks,Aquatic,71,TRUE,2003,,Not_Ecopath_model,"""@article{Thompson2003,
-  author = {Thompson, R. M. and Townsend, C. R.},
-  title = {Impacts on stream food webs of native and exotic forest: An intercontinental comparison},
-  journal = {Ecology},
-  volume = {84},
-  number = {1},
-  pages = {145--161},
-  year = {2003}
-}"""
-WEB267_,One_network_per_publication,23.00368421,-106.1348841,,Aquatic,26,TRUE,2003,2000,Ecopath_model,"""@article{Zetina,
-  author = {Zetina-Rej\'{o}n, M. J. and Arregu\'{i}n-S\'{a}nchez, F. and Ch\'{a}vez, E. A.},
-  title = {Trophic structure and flows of energy in the {H}uizache–{C}aimanero lagoon complex on the {P}acific coast of {M}exico},
-  journal = {Estuarine, Coastal and Shelf Science},
-  volume = {57},
-  number = {5},
-  pages = {803--815},
-  year = {2003}
-}"""
-WEB353_,One_network_per_publication,54.1,", 10.250000",,Aquatic,15,TRUE,2003,2000,Ecopath_model,"""@article{Poepperl,
-  author = {Poepperl, R.},
-  title = {A Quantitative Food Web Model for the Macroinvertebrate Community of a Northern {G}erman Lowland Stream},
-  journal = {International Review of Hydrobiology},
-  volume = {88},
-  number = {5},
-  pages = {433--452},
-  year = {2003}
-}"""
-WEB355_,Cohen_et_al_2003,46.216667,-89.533333,,Aquatic,21,TRUE,2003,,Not_Ecopath_model,"""@article{Cohen,
-  author = {Cohen, J. E. and Jonsson, T. and Carpenter, S. R.},
-  title = {Ecological community description using the food web, species abundance, and body size},
-  journal = {Proceedings of the National Academy of Sciences},
-  volume = {100},
-  number = {4},
-  pages = {1781--1786},
-  year = {2003}
-}"""
-WEB356_,Cohen_et_al_2003,46.216667,-89.533333,,Aquatic,20,TRUE,2003,,Not_Ecopath_model,"""@article{Cohen,
-  author = {Cohen, J. E. and Jonsson, T. and Carpenter, S. R.},
-  title = {Ecological community description using the food web, species abundance, and body size},
-  journal = {Proceedings of the National Academy of Sciences},
-  volume = {100},
-  number = {4},
-  pages = {1781--1786},
-  year = {2003}
-}"""
-WEB358_,One_network_per_publication,64.216667,19.5,One of the four sites,Terrestrial,14,TRUE,2003,2000,Not_Ecopath_model,"""@article{schroter,
-  author = {Schr\""{o}ter, D. and Wolters, V. and De Ruiter, P. C.},
-  title = {C and {N} mineralisation in the decomposer food webs of a {E}uropean forest transect},
-  journal = {Oikos},
-  volume = {102},
-  number = {2},
-  pages = {294--308},
-  year = {2003}
-}"""
-WEB218_,Thompson_and_Townsend_2004,-45.7958333,170.425,Assumming these are good based on the author is the source of these networks,Aquatic,78,TRUE,2004,,Not_Ecopath_model,"""@article{Thompson2004,
-  author = {Thompson, R. M. and Townsend, C. R.},
-  title = {Land?use influences on {N}ew {Z}ealand stream communities: Effects on species composition, functional organisation, and food?web structure},
-  journal = {New Zealand Journal of Marine and Freshwater Research},
-  volume = {38},
-  number = {4},
-  pages = {595--608},
-  year  = {2004}
-}"""
-WEB219_,Thompson_and_Townsend_2004,-45.7666667,170.4611111,Assumming these are good based on the author is the source of these networks,Aquatic,79,TRUE,2004,,Not_Ecopath_model,"""@article{Thompson2004,
-  author = {Thompson, R. M. and Townsend, C. R.},
-  title = {Land?use influences on {N}ew {Z}ealand stream communities: Effects on species composition, functional organisation, and food?web structure},
-  journal = {New Zealand Journal of Marine and Freshwater Research},
-  volume = {38},
-  number = {4},
-  pages = {595--608},
-  year  = {2004}
-}"""
-WEB220_,Thompson_and_Townsend_2004,-46.3583333,169.0861111,Assumming these are good based on the author is the source of these networks,Aquatic,66,TRUE,2004,,Not_Ecopath_model,"""@article{Thompson2004,
-  author = {Thompson, R. M. and Townsend, C. R.},
-  title = {Land?use influences on {N}ew {Z}ealand stream communities: Effects on species composition, functional organisation, and food?web structure},
-  journal = {New Zealand Journal of Marine and Freshwater Research},
-  volume = {38},
-  number = {4},
-  pages = {595--608},
-  year  = {2004}
-}"""
-WEB221_,Thompson_and_Townsend_2004,-45.1299859,169.5248818,Assumming these are good based on the author is the source of these networks,Aquatic,52,TRUE,2004,,Not_Ecopath_model,"""@article{Thompson2004,
-  author = {Thompson, R. M. and Townsend, C. R.},
-  title = {Land?use influences on {N}ew {Z}ealand stream communities: Effects on species composition, functional organisation, and food?web structure},
-  journal = {New Zealand Journal of Marine and Freshwater Research},
-  volume = {38},
-  number = {4},
-  pages = {595--608},
-  year  = {2004}
-}"""
-WEB222_,Thompson_and_Townsend_2004,-45.9472222,170.0291667,Assumming these are good based on the author is the source of these networks,Aquatic,78,TRUE,2004,,Not_Ecopath_model,"""@article{Thompson2004,
-  author = {Thompson, R. M. and Townsend, C. R.},
-  title = {Land?use influences on {N}ew {Z}ealand stream communities: Effects on species composition, functional organisation, and food?web structure},
-  journal = {New Zealand Journal of Marine and Freshwater Research},
-  volume = {38},
-  number = {4},
-  pages = {595--608},
-  year  = {2004}
-}"""
-WEB223_,Thompson_and_Townsend_2004,-45.1299859,169.5248818,Assumming these are good based on the author is the source of these networks,Aquatic,85,TRUE,2004,,Not_Ecopath_model,"""@article{Thompson2004,
-  author = {Thompson, R. M. and Townsend, C. R.},
-  title = {Land?use influences on {N}ew {Z}ealand stream communities: Effects on species composition, functional organisation, and food?web structure},
-  journal = {New Zealand Journal of Marine and Freshwater Research},
-  volume = {38},
-  number = {4},
-  pages = {595--608},
-  year  = {2004}
-}"""
-WEB224_,Thompson_and_Townsend_2004,-45.1299859,169.5248818,Assumming these are good based on the author is the source of these networks,Aquatic,57,TRUE,2004,,Not_Ecopath_model,"""@article{Thompson2004,
-  author = {Thompson, R. M. and Townsend, C. R.},
-  title = {Land?use influences on {N}ew {Z}ealand stream communities: Effects on species composition, functional organisation, and food?web structure},
-  journal = {New Zealand Journal of Marine and Freshwater Research},
-  volume = {38},
-  number = {4},
-  pages = {595--608},
-  year  = {2004}
-}"""
-WEB225_,Thompson_and_Townsend_2004,-45.1299859,169.5248818,Assumming these are good based on the author is the source of these networks,Aquatic,73,TRUE,2004,,Not_Ecopath_model,"""@article{Thompson2004,
-  author = {Thompson, R. M. and Townsend, C. R.},
-  title = {Land?use influences on {N}ew {Z}ealand stream communities: Effects on species composition, functional organisation, and food?web structure},
-  journal = {New Zealand Journal of Marine and Freshwater Research},
-  volume = {38},
-  number = {4},
-  pages = {595--608},
-  year  = {2004}
-}"""
-WEB226_,Thompson_and_Townsend_2004,-45.1299859,169.5248818,Assumming these are good based on the author is the source of these networks,Aquatic,107,TRUE,2004,,Not_Ecopath_model,"""@article{Thompson2004,
-  author = {Thompson, R. M. and Townsend, C. R.},
-  title = {Land?use influences on {N}ew {Z}ealand stream communities: Effects on species composition, functional organisation, and food?web structure},
-  journal = {New Zealand Journal of Marine and Freshwater Research},
-  volume = {38},
-  number = {4},
-  pages = {595--608},
-  year  = {2004}
-}"""
-WEB227_,Thompson_and_Townsend_2004,-44.95,170.35,Assumming these are good based on the author is the source of these networks,Aquatic,84,TRUE,2004,,Not_Ecopath_model,"""@article{Thompson2004,
-  author = {Thompson, R. M. and Townsend, C. R.},
-  title = {Land?use influences on {N}ew {Z}ealand stream communities: Effects on species composition, functional organisation, and food?web structure},
-  journal = {New Zealand Journal of Marine and Freshwater Research},
-  volume = {38},
-  number = {4},
-  pages = {595--608},
-  year  = {2004}
-}"""
-WEB228_,Thompson_and_Townsend_2004,-44.95,170.35,Assumming these are good based on the author is the source of these networks,Aquatic,96,TRUE,2004,,Not_Ecopath_model,"""@article{Thompson2004,
-  author = {Thompson, R. M. and Townsend, C. R.},
-  title = {Land?use influences on {N}ew {Z}ealand stream communities: Effects on species composition, functional organisation, and food?web structure},
-  journal = {New Zealand Journal of Marine and Freshwater Research},
-  volume = {38},
-  number = {4},
-  pages = {595--608},
-  year  = {2004}
-}"""
-WEB229_,Thompson_and_Townsend_2004,-44.95,170.35,Assumming these are good based on the author is the source of these networks,Aquatic,98,TRUE,2004,,Not_Ecopath_model,"""@article{Thompson2004,
-  author = {Thompson, R. M. and Townsend, C. R.},
-  title = {Land?use influences on {N}ew {Z}ealand stream communities: Effects on species composition, functional organisation, and food?web structure},
-  journal = {New Zealand Journal of Marine and Freshwater Research},
-  volume = {38},
-  number = {4},
-  pages = {595--608},
-  year  = {2004}
-}"""
-WEB230_,Thompson_and_Townsend_2004,-44.95,170.35,Assumming these are good based on the author is the source of these networks,Aquatic,78,TRUE,2004,,Not_Ecopath_model,"""@article{Thompson2004,
-  author = {Thompson, R. M. and Townsend, C. R.},
-  title = {Land?use influences on {N}ew {Z}ealand stream communities: Effects on species composition, functional organisation, and food?web structure},
-  journal = {New Zealand Journal of Marine and Freshwater Research},
-  volume = {38},
-  number = {4},
-  pages = {595--608},
-  year  = {2004}
-}"""
-WEB231_,Thompson_and_Townsend_2004,-45.6,169.9166667,Assumming these are good based on the author is the source of these networks,Aquatic,112,TRUE,2004,,Not_Ecopath_model,"""@article{Thompson2004,
-  author = {Thompson, R. M. and Townsend, C. R.},
-  title = {Land?use influences on {N}ew {Z}ealand stream communities: Effects on species composition, functional organisation, and food?web structure},
-  journal = {New Zealand Journal of Marine and Freshwater Research},
-  volume = {38},
-  number = {4},
-  pages = {595--608},
-  year  = {2004}
-}"""
-WEB232_,Thompson_and_Townsend_2004,-45.6,169.9166667,Assumming these are good based on the author is the source of these networks,Aquatic,86,TRUE,2004,,Not_Ecopath_model,"""@article{Thompson2004,
-  author = {Thompson, R. M. and Townsend, C. R.},
-  title = {Land?use influences on {N}ew {Z}ealand stream communities: Effects on species composition, functional organisation, and food?web structure},
-  journal = {New Zealand Journal of Marine and Freshwater Research},
-  volume = {38},
-  number = {4},
-  pages = {595--608},
-  year  = {2004}
-}"""
-WEB233_,Thompson_and_Townsend_2004,-45.1299859,169.5248818,Assumming these are good based on the author is the source of these networks,Aquatic,86,TRUE,2004,,Not_Ecopath_model,"""@article{Thompson2004,
-  author = {Thompson, R. M. and Townsend, C. R.},
-  title = {Land?use influences on {N}ew {Z}ealand stream communities: Effects on species composition, functional organisation, and food?web structure},
-  journal = {New Zealand Journal of Marine and Freshwater Research},
-  volume = {38},
-  number = {4},
-  pages = {595--608},
-  year  = {2004}
-}"""
-WEB234_,Thompson_and_Townsend_2004,-45.1299859,169.5248818,Assumming these are good based on the author is the source of these networks,Aquatic,94,TRUE,2004,,Not_Ecopath_model,"""@article{Thompson2004,
-  author = {Thompson, R. M. and Townsend, C. R.},
-  title = {Land?use influences on {N}ew {Z}ealand stream communities: Effects on species composition, functional organisation, and food?web structure},
-  journal = {New Zealand Journal of Marine and Freshwater Research},
-  volume = {38},
-  number = {4},
-  pages = {595--608},
-  year  = {2004}
-}"""
-WEB235_,Thompson_and_Townsend_2004,-45.1299859,169.5248818,Assumming these are good based on the author is the source of these networks,Aquatic,108,TRUE,2004,,Not_Ecopath_model,"""@article{Thompson2004,
-  author = {Thompson, R. M. and Townsend, C. R.},
-  title = {Land?use influences on {N}ew {Z}ealand stream communities: Effects on species composition, functional organisation, and food?web structure},
-  journal = {New Zealand Journal of Marine and Freshwater Research},
-  volume = {38},
-  number = {4},
-  pages = {595--608},
-  year  = {2004}
-}"""
-WEB236_,Thompson_and_Townsend_2004,-46.3583333,169.0861111,Assumming these are good based on the author is the source of these networks,Aquatic,68,TRUE,2004,,Not_Ecopath_model,"""@article{Thompson2004,
-  author = {Thompson, R. M. and Townsend, C. R.},
-  title = {Land?use influences on {N}ew {Z}ealand stream communities: Effects on species composition, functional organisation, and food?web structure},
-  journal = {New Zealand Journal of Marine and Freshwater Research},
-  volume = {38},
-  number = {4},
-  pages = {595--608},
-  year  = {2004}
-}"""
-WEB237_,Thompson_and_Townsend_2004,-45.1299859,169.5248818,Assumming these are good based on the author is the source of these networks,Aquatic,57,TRUE,2004,,Not_Ecopath_model,"""@article{Thompson2004,
-  author = {Thompson, R. M. and Townsend, C. R.},
-  title = {Land?use influences on {N}ew {Z}ealand stream communities: Effects on species composition, functional organisation, and food?web structure},
-  journal = {New Zealand Journal of Marine and Freshwater Research},
-  volume = {38},
-  number = {4},
-  pages = {595--608},
-  year  = {2004}
-}"""
-WEB238_,Thompson_and_Townsend_2004,-45.9472222,170.0291667,Assumming these are good based on the author is the source of these networks,Aquatic,72,TRUE,2004,,Not_Ecopath_model,"""@article{Thompson2004,
-  author = {Thompson, R. M. and Townsend, C. R.},
-  title = {Land?use influences on {N}ew {Z}ealand stream communities: Effects on species composition, functional organisation, and food?web structure},
-  journal = {New Zealand Journal of Marine and Freshwater Research},
-  volume = {38},
-  number = {4},
-  pages = {595--608},
-  year  = {2004}
-}"""
-WEB239_,Thompson_and_Townsend_2004,-45.1299859,169.5248818,Assumming these are good based on the author is the source of these networks,Aquatic,69,TRUE,2004,,Not_Ecopath_model,"""@article{Thompson2004,
-  author = {Thompson, R. M. and Townsend, C. R.},
-  title = {Land?use influences on {N}ew {Z}ealand stream communities: Effects on species composition, functional organisation, and food?web structure},
-  journal = {New Zealand Journal of Marine and Freshwater Research},
-  volume = {38},
-  number = {4},
-  pages = {595--608},
-  year  = {2004}
-}"""
-WEB240_,Thompson_and_Townsend_2004,-45.1299859,169.5248818,Assumming these are good based on the author is the source of these networks,Aquatic,67,TRUE,2004,,Not_Ecopath_model,"""@article{Thompson2004,
-  author = {Thompson, R. M. and Townsend, C. R.},
-  title = {Land?use influences on {N}ew {Z}ealand stream communities: Effects on species composition, functional organisation, and food?web structure},
-  journal = {New Zealand Journal of Marine and Freshwater Research},
-  volume = {38},
-  number = {4},
-  pages = {595--608},
-  year  = {2004}
-}"""
-WEB241_,Thompson_and_Townsend_2004,-45.1299859,169.5248818,Assumming these are good based on the author is the source of these networks,Aquatic,69,TRUE,2004,,Not_Ecopath_model,"""@article{Thompson2004,
-  author = {Thompson, R. M. and Townsend, C. R.},
-  title = {Land?use influences on {N}ew {Z}ealand stream communities: Effects on species composition, functional organisation, and food?web structure},
-  journal = {New Zealand Journal of Marine and Freshwater Research},
-  volume = {38},
-  number = {4},
-  pages = {595--608},
-  year  = {2004}
-}"""
-WEB242_,Thompson_and_Townsend_2004,-46.3583333,169.0861111,Assumming these are good based on the author is the source of these networks,Aquatic,81,TRUE,2004,,Not_Ecopath_model,"""@article{Thompson2004,
-  author = {Thompson, R. M. and Townsend, C. R.},
-  title = {Land?use influences on {N}ew {Z}ealand stream communities: Effects on species composition, functional organisation, and food?web structure},
-  journal = {New Zealand Journal of Marine and Freshwater Research},
-  volume = {38},
-  number = {4},
-  pages = {595--608},
-  year  = {2004}
-}"""
-WEB243_,Thompson_and_Townsend_2004,-45.1299859,169.5248818,Assumming these are good based on the author is the source of these networks,Aquatic,39,TRUE,2004,,Not_Ecopath_model,"""@article{Thompson2004,
-  author = {Thompson, R. M. and Townsend, C. R.},
-  title = {Land?use influences on {N}ew {Z}ealand stream communities: Effects on species composition, functional organisation, and food?web structure},
-  journal = {New Zealand Journal of Marine and Freshwater Research},
-  volume = {38},
-  number = {4},
-  pages = {595--608},
-  year  = {2004}
-}"""
-WEB244_,Thompson_and_Townsend_2004,-45.9472222,170.0291667,Assumming these are good based on the author is the source of these networks,Aquatic,70,TRUE,2004,,Not_Ecopath_model,"""@article{Thompson2004,
-  author = {Thompson, R. M. and Townsend, C. R.},
-  title = {Land?use influences on {N}ew {Z}ealand stream communities: Effects on species composition, functional organisation, and food?web structure},
-  journal = {New Zealand Journal of Marine and Freshwater Research},
-  volume = {38},
-  number = {4},
-  pages = {595--608},
-  year  = {2004}
-}"""
-WEB245_,Thompson_and_Townsend_2004,-45.9472222,170.0291667,Assumming these are good based on the author is the source of these networks,Aquatic,55,TRUE,2004,,Not_Ecopath_model,"""@article{Thompson2004,
-  author = {Thompson, R. M. and Townsend, C. R.},
-  title = {Land?use influences on {N}ew {Z}ealand stream communities: Effects on species composition, functional organisation, and food?web structure},
-  journal = {New Zealand Journal of Marine and Freshwater Research},
-  volume = {38},
-  number = {4},
-  pages = {595--608},
-  year  = {2004}
-}"""
-WEB246_,Thompson_and_Townsend_2004,-45.1299859,169.5248818,Assumming these are good based on the author is the source of these networks,Aquatic,59,TRUE,2004,,Not_Ecopath_model,"""@article{Thompson2004,
-  author = {Thompson, R. M. and Townsend, C. R.},
-  title = {Land?use influences on {N}ew {Z}ealand stream communities: Effects on species composition, functional organisation, and food?web structure},
-  journal = {New Zealand Journal of Marine and Freshwater Research},
-  volume = {38},
-  number = {4},
-  pages = {595--608},
-  year  = {2004}
-}"""
-WEB247_,Thompson_and_Townsend_2004,-45.1299859,169.5248818,Assumming these are good based on the author is the source of these networks,Aquatic,49,TRUE,2004,,Not_Ecopath_model,"""@article{Thompson2004,
-  author = {Thompson, R. M. and Townsend, C. R.},
-  title = {Land?use influences on {N}ew {Z}ealand stream communities: Effects on species composition, functional organisation, and food?web structure},
-  journal = {New Zealand Journal of Marine and Freshwater Research},
-  volume = {38},
-  number = {4},
-  pages = {595--608},
-  year  = {2004}
-}"""
-WEB344_,One_network_per_publication,74.46000387,19.10724528,,Terrestrial,29,TRUE,2004,2000,Not_Ecopath_model,"""@article{Hodkinson,
-  author = {Hodkinson, I. D. and Coulson, S. J.},
-  title = {Are high Arctic terrestrial food chains really that simple? – {T}he {B}ear {I}sland food web revisited},
-  journal = {Oikos},
-  volume = {106},
-  number = {2},
-  pages = {427--431},
-  year = {2004}
-}"""
-FW_008_,One_network_per_publication,18.425745,-74.998729,,Aquatic,249,TRUE,2005,2000,Ecopath_model,"""@article{Bascompte,
-  author = {Bascompte, J. and Meli\'{a}n, C. J. and Sala, E.},
-  title = {Interaction strength combinations and the overfishing of a marine food web},
-  journal = {Proceedings of the National Academy of Sciences},
-  volume = {102},
-  number = {15},
-  pages = {5443--5447},
-  year = {2005}
-}"""
-WEB248_,One_network_per_publication,-45.83419595,170.6190985,,Aquatic,78,TRUE,2005,2000,Not_Ecopath_model,"""@article{Thompson_2005,
-  author = {Thompson, R. M. and Mouritsen, K. N. and Poulin, R.},
-  title = {Importance of parasites and their life cycle characteristics in determining the structure of a large marine food web},
-  journal = {Journal of Animal Ecology},
-  volume = {74},
-  number = {1},
-  pages = {77--85},
-  year = {2005}
-}"""
-WEB249_,One_network_per_publication,-26,-56.5,Estimated based on description in paper,Aquatic,40,TRUE,2005,2000,Ecopath_model,"""@article{Angelini_2005,
-  author = {Angelini, R. and Agostinho, A. A.},
-  title = {Food web model of the {U}pper {P}aran\'{a} River Floodplain: {D}escription and aggregation effects},
-  journal = {Ecological Modelling},
-  volume = {181},
-  number = {2},
-  pages = {109--121},
-  year = {2005}
-}"""
-WEB347_,One_network_per_publication,-23.05,-48.633333,,Aquatic,106,TRUE,2005,2000,Not_Ecopath_model,"""@article{Motta,
-  author = {Motta, R. L. and Uieda, V. S.},
-  title = {Food web structure in a tropical stream ecosystem},
-  journal = {Austral Ecology},
-  volume = {30},
-  number = {1},
-  pages = {58--73},
-  year = {2005}
-}"""
-WEB250_,Angelini_et_al_2006,-25.40164638,-54.59465636,,Aquatic,32,TRUE,2006,,Ecopath_model,"""@article{angelini2006,
-  author = {Angelini, R. and Agostinho, A. A. and Gomes, L. C.},
-  title = {Modeling energy flow in a large Neotropical reservoir: A tool do evaluate fishing and stability},
-  journal = {Neotropical Ichthyology},
-  volume = {4},
-  pages = {253--260},
-  year = {2006}
-}"""
-WEB251_,Angelini_et_al_2006,-25.40164638,-54.59465636,,Aquatic,33,TRUE,2006,,Ecopath_model,"""@article{angelini2006,
-  author = {Angelini, R. and Agostinho, A. A. and Gomes, L. C.},
-  title = {Modeling energy flow in a large Neotropical reservoir: A tool do evaluate fishing and stability},
-  journal = {Neotropical Ichthyology},
-  volume = {4},
-  pages = {253--260},
-  year = {2006}
-}"""
-WEB265_,One_network_per_publication,22.45128787,120.4335176,,Aquatic,18,TRUE,2006,2000,Ecopath_model,"""@article{Lin,
-  author = {Lin, H.-J. and Dai, X.-X. and Shao, K.-T. and Su, H.-M. and Lo, W.-T. and Hsieh, H.-L. and Fang, L.-S. and Hung, J.-J.},
-  title = {Trophic structure and functioning in a eutrophic and poorly flushed lagoon in southwestern {T}aiwan},
-  journal = {Marine Environmental Research},
-  volume = {62},
-  number = {1},
-  pages = {61--82},
-  year = {2006}
-}"""
-WEB273_,Parker_and_Huryn_2006,69.016667,-147.716667,,Aquatic,45,TRUE,2006,,Not_Ecopath_model,"""@article{Parker,
-  author = {Parker, S. M. and Huryn, A. D.},
-  title = {Food web structure and function in two arctic streams with contrasting disturbance regimes},
-  journal = {Freshwater Biology},
-  volume = {51},
-  number = {7},
-  pages = {1249--1263},
-  year = {2006}
-}"""
-WEB274_,Parker_and_Huryn_2006,69.016667,-147.716667,,Aquatic,38,TRUE,2006,,Not_Ecopath_model,"""@article{Parker,
-  author = {Parker, S. M. and Huryn, A. D.},
-  title = {Food web structure and function in two arctic streams with contrasting disturbance regimes},
-  journal = {Freshwater Biology},
-  volume = {51},
-  number = {7},
-  pages = {1249--1263},
-  year = {2006}
-}"""
-WEB275_,Parker_and_Huryn_2006,69.016667,-147.716667,,Aquatic,42,TRUE,2006,,Not_Ecopath_model,"""@article{Parker,
-  author = {Parker, S. M. and Huryn, A. D.},
-  title = {Food web structure and function in two arctic streams with contrasting disturbance regimes},
-  journal = {Freshwater Biology},
-  volume = {51},
-  number = {7},
-  pages = {1249--1263},
-  year = {2006}
-}"""
-WEB276_,Parker_and_Huryn_2006,69.016667,-147.716667,,Aquatic,37,TRUE,2006,,Not_Ecopath_model,"""@article{Parker,
-  author = {Parker, S. M. and Huryn, A. D.},
-  title = {Food web structure and function in two arctic streams with contrasting disturbance regimes},
-  journal = {Freshwater Biology},
-  volume = {51},
-  number = {7},
-  pages = {1249--1263},
-  year = {2006}
-}"""
-carpinteria_,One_network_per_publication,34.3996432,-119.5290144,,Aquatic and terrestrial,127,TRUE,2006,2000,Not_Ecopath_model,"""@incollection{Lafferty,
-  author = {Lafferty, K. D. and Hechinger, R. F. and Shaw, J. C. and Whitney, K. L. and Kuris, A. M.},
-  editor = {Collinge, S. and Ray, C.},
-  title = {Food webs and parasites in a salt marsh ecosystem},
-  bookTitle = {Disease ecology: Community structure and pathogen dynamics},
-  year = {2006},
-  publisher = {Oxford University Press},
-  address = {Oxford, UK},
-  pages = {119-–134}
-}"""
-WEB268_,One_network_per_publication,18.79009293,-95.81887307,,Aquatic,30,TRUE,2007,2000,Ecopath_model,"""@article{Cruz,
-  author = {Cruz-Escalona, V.H. and Arreguín-S\'{a}nchez, F. and Zetina-Rej\'{o}n, M.},
-  title = {Analysis of the ecosystem structure of {L}aguna {A}lvarado, western {G}ulf of {M}exico, by means of a mass balance model},
-  journal = {Estuarine, Coastal and Shelf Science},
-  volume = {72},
-  number = {1},
-  pages = {155--167},
-  year = {2007}
-}"""
-WEB269_,One_network_per_publication,29.55340946,118.9299673,,Aquatic,16,TRUE,2007,2000,Ecopath_model,"""@article{Liu,
-  author = {Liu, Q.-G. and Chen, Y. and Li, J.-L. and Chen, L.-Q.},
-  title = {The food web structure and ecosystem properties of a filter-feeding carps dominated deep reservoir ecosystem},
-  journal = {Ecological Modelling},
-  volume = {203},
-  number = {3},
-  pages = {279--289},
-  year = {2007}
-}"""
-WEB340_,One_network_per_publication,-72.84289459,-168.4958437,,Aquatic,24,TRUE,2007,2000,Not_Ecopath_model,"""@article{Smith,
-  author = {Smith, W. O. and Ainley, D. G.  and Cattaneo-Vietti, R.},
-  title = {Trophic interactions within the {R}oss {S}ea continental shelf ecosystem},
-  journal = {Philosophical Transactions of the Royal Society B: Biological Sciences},
-  volume = {362},
-  number = {1477},
-  pages = {95--111},
-  year = {2007}
-}"""
-WEB266_,One_network_per_publication,-66.47200907,-63.59364238,Location approximation by description,Aquatic,28,TRUE,2008,2000,Ecopath_model,"""@article{Cornejo-Donoso,
-  author = {Cornejo-Donoso, J. and Antezana, T.},
-  title = {Preliminary trophic model of the {A}ntarctic {P}eninsula {E}cosystem (Sub-area {CCAMLR} 48.1)},
-  journal = {Ecological Modelling},
-  volume = {218},
-  number = {1},
-  pages = {1--17},
-  year = {2008}
-}"""
-WEB310_,One_network_per_publication,12.78171511,77.87392618,,Aquatic,14,TRUE,2009,2000,Ecopath_model,"""@article{Khan,
-  author = {Khan, M. F. and Panikkar, P.},
-  title = {Assessment of impacts of invasive fishes on the food web structure and ecosystem properties of a tropical reservoir in {I}ndia},
-  journal = {Ecological Modelling},
-  volume = {220},
-  number = {18},
-  pages = {2281--2290},
-  year = {2009}
-}"""
-WEB252_,One_network_per_publication,-18.58466948,-51.98599192,,Aquatic,13,TRUE,2010,2010,Ecopath_model,"""@article{angelini2010,
-  author = {Angelini, R. and Aloisio, G. R. and Carvalho, A. R.},
-  title = {Mixed food web control and stability in a {C}errado river ({B}razil)},
-  volume = {5},
-  pages = {421--431},
-  year = {2010},
-  journal = {Pan-American Journal of Aquatic Sciences}
-}"""
-WEB253_,One_network_per_publication,-17.37286956,14.21662715,,Aquatic,28,TRUE,2011,2010,Ecopath_model,"""@article{angelini2011,
-  author = {Angelini, R. and Vaz-Velho, F.},
-  title = {Ecosystem structure and trophic analysis of {A}ngolan fishery landings},
-  journal = {Scientia Marina},
-  volume = {75},
-  number = {2},
-  pages = {309--319},
-  year = {2011}
-}"""
-WEB257_,Baeta_et_al_2011,40.12413664,-8.840265687,,Aquatic,37,TRUE,2011,,Ecopath_model,"""@article{baeta2011,
-  author = {Baeta, A. and Niquil, N. and Marques, J. C. and Patr\'{i}cio, J.},
-  title = {Modelling the effects of eutrophication, mitigation measures and an extreme flood event on estuarine benthic food webs},
-  journal = {Ecological Modelling},
-  volume = {222},
-  number = {6},
-  pages = {1209--1221},
-  year = {2011}
-}"""
-WEB258_,Baeta_et_al_2011,40.12413664,-8.840265687,,Aquatic,32,TRUE,2011,,Ecopath_model,"""@article{baeta2011,
-  author = {Baeta, A. and Niquil, N. and Marques, J. C. and Patr\'{i}cio, J.},
-  title = {Modelling the effects of eutrophication, mitigation measures and an extreme flood event on estuarine benthic food webs},
-  journal = {Ecological Modelling},
-  volume = {222},
-  number = {6},
-  pages = {1209--1221},
-  year = {2011}
-}"""
-WEB259_,Baeta_et_al_2011,40.12413664,-8.840265687,,Aquatic,25,TRUE,2011,,Ecopath_model,"""@article{baeta2011,
-  author = {Baeta, A. and Niquil, N. and Marques, J. C. and Patr\'{i}cio, J.},
-  title = {Modelling the effects of eutrophication, mitigation measures and an extreme flood event on estuarine benthic food webs},
-  journal = {Ecological Modelling},
-  volume = {222},
-  number = {6},
-  pages = {1209--1221},
-  year = {2011}
-}"""
-WEB260_,Baeta_et_al_2011,40.12413664,-8.840265687,,Aquatic,26,TRUE,2011,,Ecopath_model,"""@article{baeta2011,
-  author = {Baeta, A. and Niquil, N. and Marques, J. C. and Patr\'{i}cio, J.},
-  title = {Modelling the effects of eutrophication, mitigation measures and an extreme flood event on estuarine benthic food webs},
-  journal = {Ecological Modelling},
-  volume = {222},
-  number = {6},
-  pages = {1209--1221},
-  year = {2011}
-}"""
-WEB261_,Baeta_et_al_2011,40.12413664,-8.840265687,,Aquatic,21,TRUE,2011,,Ecopath_model,"""@article{baeta2011,
-  author = {Baeta, A. and Niquil, N. and Marques, J. C. and Patr\'{i}cio, J.},
-  title = {Modelling the effects of eutrophication, mitigation measures and an extreme flood event on estuarine benthic food webs},
-  journal = {Ecological Modelling},
-  volume = {222},
-  number = {6},
-  pages = {1209--1221},
-  year = {2011}
-}"""
-WEB262_,Baeta_et_al_2011,40.12413664,-8.840265687,,Aquatic,21,TRUE,2011,,Ecopath_model,"""@article{baeta2011,
-  author = {Baeta, A. and Niquil, N. and Marques, J. C. and Patr\'{i}cio, J.},
-  title = {Modelling the effects of eutrophication, mitigation measures and an extreme flood event on estuarine benthic food webs},
-  journal = {Ecological Modelling},
-  volume = {222},
-  number = {6},
-  pages = {1209--1221},
-  year = {2011}
-}"""
-WEB270_,One_network_per_publication,42.32166677,-8.619746373,,Aquatic,26,TRUE,2011,2010,Not_Ecopath_model,"""@article{Filgueira,
-  author = {Filgueira, R. and Castro, B. G.},
-  title = {Study of the trophic web of {S}an {S}im\'{o}n {B}ay ({R}\'{i}a de {V}igo) by using stable isotopes},
-  journal = {Continental Shelf Research},
-  volume = {31},
-  number = {5},
-  pages = {476--487},
-  year = {2011}
-}"""
-WEB278_,Stewart_and_Sprules_2011,43.7,-77.9,,Aquatic,22,TRUE,2011,,Ecopath_model,"""@article{Stewart,
-  author = {Stewart, T. J. and Sprules, W. G.},
-  title = {Carbon-based balanced trophic structure and flows in the offshore Lake {O}ntario food web before (1987–1991) and after (2001–2005) invasion-induced ecosystem change},
-  journal = {Ecological Modelling},
-  volume = {222},
-  number = {3},
-  pages = {692--708},
-  year = {2011}
-}"""
-WEB279_,Stewart_and_Sprules_2011,43.7,-77.9,,Aquatic,22,TRUE,2011,,Ecopath_model,"""@article{Stewart,
-  author = {Stewart, T. J. and Sprules, W. G.},
-  title = {Carbon-based balanced trophic structure and flows in the offshore Lake {O}ntario food web before (1987–1991) and after (2001–2005) invasion-induced ecosystem change},
-  journal = {Ecological Modelling},
-  volume = {222},
-  number = {3},
-  pages = {692--708},
-  year = {2011}
-}"""
-WEB289_,One_network_per_publication,11.34939036,39.70952092,,Aquatic,15,TRUE,2011,2010,Ecopath_model,"""@article{Fetahi,
-  author = {Fetahi, T. and Schagerl, M. and Mengistou, S. and Libralato, S.},
-  title = {Food web structure and trophic interactions of the tropical highland lake {H}ayq, {E}thiopia},
-  journal = {Ecological Modelling},
-  volume = {222},
-  number = {3},
-  pages = {804--813},
-  year = {2011}
-}"""
-WEB309_,One_network_per_publication,61.37362578,-2.557859306,,Aquatic,16,TRUE,2011,2010,Not_Ecopath_model,"""@article{Gontikaki,
-  author = {Gontikaki, E. and {van Oevelen}, D. and Soetaert, K. and Witte, U.},
-  title = {Food web flows through a sub-arctic deep-sea benthic community},
-  journal = {Progress in Oceanography},
-  volume = {91},
-  number = {3},
-  pages = {245--259},
-  year = {2011}
-}"""
-WEB350_,One_network_per_publication,37.216667,-76.383333,,Aquatic,24,TRUE,2011,2010,Not_Ecopath_model,"""@article{Douglass,
-  author = {Douglass, J. G. and Duffy, J. E. and Canuel, E. A.},
-  title = {Food web structure in a {C}hesapeake {B}ay eelgrass bed as determined through gut contents and {$^{13}$C} and {$^{15}$N} isotope analysis},
-  journal = {Estuaries and Coasts},
-  volume = {34},
-  pages = {701--711},
-  year = {2011}
-}"""
-WEB345_,One_network_per_publication,47.60091692,9.407807806,,Aquatic,23,TRUE,2012,2010,Not_Ecopath_model,"""@article{Boit,
-  author = {Boit, A. and Martinez, N. D. and Williams, R. J. and Gaedke, U.},
-  title = {Mechanistic theory and modelling of complex food-web dynamics in {L}ake {C}onstance},
-  journal = {Ecology Letters},
-  volume = {15},
-  number = {6},
-  pages = {594--602},
-  year = {2012}
-}"""
-WEB295_,One_network_per_publication,40.33343373,-122.1214727,"Estimated location based on ""northern California""",Aquatic and terrestrial,113,TRUE,2012,2010,Not_Ecopath_model,"""@article{Preston,
-  author = {Preston, D. L. and Orlofske, S. A. and McLaughlin, J. P. and Johnson, P. T. J.},
-  title = {Food web including infectious agents for a {C}alifornia freshwater pond},
-  journal = {Ecology},
-  volume = {93},
-  number = {7},
-  pages = {1760--1760},
-  year = {2012}
-}"""
-WEB254_,Angelini_et_al_2013,-20.0615735,-55.95079319,,Aquatic,39,TRUE,2013,,Ecopath_model,"""@article{angelini2013,
-  author = {Angelini, R. and {de Morais}, R. J. and Catella, A. C. and Resende, E. K. and Libralato, S.},
-  title = {Aquatic food webs of the oxbow lakes in the {P}antanal: A new site for fisheries guaranteed by alternated control?},
-  journal = {Ecological Modelling},
-  volume = {253},
-  pages = {82--96},
-  year = {2013}
-}"""
-WEB255_,Angelini_et_al_2013,-20.0615735,-55.95079319,,Aquatic,39,TRUE,2013,,Ecopath_model,"""@article{angelini2013,
-  author = {Angelini, R. and {de Morais}, R. J. and Catella, A. C. and Resende, E. K. and Libralato, S.},
-  title = {Aquatic food webs of the oxbow lakes in the {P}antanal: A new site for fisheries guaranteed by alternated control?},
-  journal = {Ecological Modelling},
-  volume = {253},
-  pages = {82--96},
-  year = {2013}
-}"""
-WEB256_,Angelini_et_al_2013,-20.0615735,-55.95079319,,Aquatic,40,TRUE,2013,,Ecopath_model,"""@article{angelini2013,
-  author = {Angelini, R. and {de Morais}, R. J. and Catella, A. C. and Resende, E. K. and Libralato, S.},
-  title = {Aquatic food webs of the oxbow lakes in the {P}antanal: A new site for fisheries guaranteed by alternated control?},
-  journal = {Ecological Modelling},
-  volume = {253},
-  pages = {82--96},
-  year = {2013}
-}"""
-WEB271_,One_network_per_publication,69.116667,19.083333,,Aquatic,50,TRUE,2013,2010,Not_Ecopath_model,"""@article{Amundsen,
-  author = {Amundsen, P.-A. and Lafferty, K. D. and Knudsen, R. and Primicerio, R. and Kristoffersen, R. and Klemetsen, A. and Kuris, A. M.},
-  title = {New parasites and predators follow the introduction of two fish species to a subarctic lake: implications for food-web structure and functioning},
-  journal = {Oecologia},
-  volume = {171},
-  pages = {993--1002},
-  year = {2013}
-}"""
-WEB338_,One_network_per_publication,36.54900562,-7.003404984,,Aquatic,42,TRUE,2013,2010,Ecopath_model,"""@article{Torres,
-  author = {Torres, M. {\'{A}}. and Coll, M. and Heymans, J. J. and Christensen, V. and Sobrino, I.},
-  title = {Food-web structure of and fishing impacts on the {G}ulf of {C}adiz ecosystem ({S}outh-western {S}pain)},
-  journal = {Ecological Modelling},
-  volume = {265},
-  pages = {26--44},
-  year = {2013}
-}"""
+network_number,name,author,Primary_type, Specialized_aquatic_type,number_of_nodes,is_connected,year_published,decade_published,Ecopath
+1,WEB3_,One_network_per_publication,Aquatic and terrestrial,,20,TRUE,1967,1960,Not_Ecopath_model
+2,WEB4_,One_network_per_publication,Aquatic and terrestrial,,13,TRUE,1956,1950,Not_Ecopath_model
+3,WEB6_,One_network_per_publication,Aquatic and terrestrial,,25,TRUE,1935,1930,Not_Ecopath_model
+4,WEB12_,Menge_and_Sutherland_1976,Aquatic,Marine,13,TRUE,1976,,Not_Ecopath_model
+5,WEB13_,Menge_and_Sutherland_1976,Aquatic,Marine,13,TRUE,1976,,Not_Ecopath_model
+6,WEB17_,One_network_per_publication,Aquatic,Marine,14,TRUE,1960,1960,Not_Ecopath_model
+7,WEB18_,One_network_per_publication,Aquatic and terrestrial,,27,TRUE,1963,1960,Not_Ecopath_model
+8,WEB22_,One_network_per_publication,Aquatic and terrestrial,,26,TRUE,1923,1920,Not_Ecopath_model
+9,WEB28_,One_network_per_publication,Terrestrial,,43,TRUE,1956,1950,Not_Ecopath_model
+10,WEB29_,One_network_per_publication,Aquatic,Marine,22,TRUE,1954,1950,Not_Ecopath_model
+11,WEB33_,Fryer_1959,Aquatic,Lake,33,TRUE,1959,,Not_Ecopath_model
+12,WEB204_,Fryer_1959,Aquatic,Lake,33,TRUE,1959,,Not_Ecopath_model
+13,WEB38_,Fryer_1959,Aquatic,Lake,31,TRUE,1959,,Not_Ecopath_model
+14,WEB39_,Fryer_1959,Aquatic,Lake,37,TRUE,1959,,Not_Ecopath_model
+15,WEB34_,One_network_per_publication,Aquatic,Stream,12,TRUE,1949,1940,Not_Ecopath_model
+16,WEB35_,One_network_per_publication,Aquatic,Stream,13,TRUE,1967,1960,Not_Ecopath_model
+17,WEB37_,One_network_per_publication,Aquatic,Marine,25,TRUE,1967,1960,Not_Ecopath_model
+18,WEB40_,One_network_per_publication,Terrestrial,,11,TRUE,1962,1960,Not_Ecopath_model
+19,WEB42_,One_network_per_publication,Aquatic,Marine,16,TRUE,1978,1970,Not_Ecopath_model
+20,WEB43_,One_network_per_publication,Aquatic,Marine,21,TRUE,1974,1970,Not_Ecopath_model
+21,WEB45_,One_network_per_publication,Aquatic,Spring,11,TRUE,1968,1960,Not_Ecopath_model
+22,WEB58_,One_network_per_publication,Aquatic and terrestrial,,18,TRUE,1961,1960,Not_Ecopath_model
+23,WEB59_,One_network_per_publication,Terrestrial,,30,TRUE,1945,1940,Not_Ecopath_model
+24,WEB63_,One_network_per_publication,Aquatic,River,18,TRUE,1950,1950,Not_Ecopath_model
+25,WEB67_,One_network_per_publication,Aquatic and terrestrial,,21,TRUE,1968,1960,Not_Ecopath_model
+26,WEB72_,One_network_per_publication,Aquatic,Lake,17,TRUE,1983,1980,Not_Ecopath_model
+27,WEB84_,One_network_per_publication,Aquatic and terrestrial,,12,TRUE,1972,1970,Not_Ecopath_model
+28,WEB87_,One_network_per_publication,Aquatic,Marine,12,TRUE,1982,1980,Not_Ecopath_model
+29,WEB88_,One_network_per_publication,Aquatic,River,16,TRUE,1979,1970,Not_Ecopath_model
+30,WEB89_,One_network_per_publication,Aquatic,River,18,TRUE,1948,1940,Not_Ecopath_model
+31,WEB98_,One_network_per_publication,Terrestrial,,17,TRUE,1980,1980,Not_Ecopath_model
+32,WEB104_,One_network_per_publication,Aquatic,Marine,27,TRUE,1986,1980,Not_Ecopath_model
+33,WEB105_,One_network_per_publication,Aquatic,Marine,10,TRUE,1982,1980,Not_Ecopath_model
+34,WEB107_,One_network_per_publication,Aquatic,Marine,10,TRUE,1979,1970,Not_Ecopath_model
+35,WEB108_,One_network_per_publication,Aquatic,Marine,14,TRUE,1937,1930,Not_Ecopath_model
+36,WEB117_,One_network_per_publication,Aquatic,Lake,13,TRUE,1973,1970,Not_Ecopath_model
+37,WEB121_,One_network_per_publication,Aquatic,Marine,12,TRUE,1977,1970,Not_Ecopath_model
+38,WEB123_,One_network_per_publication,Terrestrial,,133,TRUE,1972,1970,Not_Ecopath_model
+39,WEB131_,Beaver_1985,Aquatic and terrestrial,,19,TRUE,1985,,Not_Ecopath_model
+40,WEB132_,Beaver_1985,Aquatic and terrestrial,,18,TRUE,1985,,Not_Ecopath_model
+41,WEB134_,Beaver_1985,Aquatic and terrestrial,,11,TRUE,1985,,Not_Ecopath_model
+42,WEB151_,One_network_per_publication,Terrestrial,,23,TRUE,1926,1920,Not_Ecopath_model
+43,WEB152_,One_network_per_publication,Terrestrial,,23,TRUE,1984,1980,Not_Ecopath_model
+44,WEB154_,One_network_per_publication,Terrestrial,,15,TRUE,1978,1970,Not_Ecopath_model
+45,WEB155_,One_network_per_publication,Terrestrial,,16,TRUE,1975,1970,Not_Ecopath_model
+46,WEB199_,One_network_per_publication,Terrestrial,,32,TRUE,1969,1960,Not_Ecopath_model
+47,WEB200_,Valiela_1974,Terrestrial,,26,TRUE,1974,,Not_Ecopath_model
+48,WEB201_,Valiela_1974,Terrestrial,,35,TRUE,1974,,Not_Ecopath_model
+49,WEB205_,One_network_per_publication,Aquatic,Stream,24,TRUE,1985,1980,Not_Ecopath_model
+50,WEB207_,One_network_per_publication,Aquatic,Stream,32,TRUE,1973,1970,Not_Ecopath_model
+51,WEB208_,One_network_per_publication,Aquatic,Stream,11,TRUE,1963,1960,Not_Ecopath_model
+52,WEB210_,One_network_per_publication,Aquatic,Stream,60,TRUE,1929,1920,Not_Ecopath_model
+53,WEB211_,One_network_per_publication,Aquatic,Stream,34,TRUE,1934,1930,Not_Ecopath_model
+54,WEB213_,One_network_per_publication,Aquatic,Stream,34,TRUE,1949,1940,Not_Ecopath_model
+55,WEB214_,Thompson_and_Townsend_2003,Aquatic,Stream,76,TRUE,2003,,Not_Ecopath_model
+56,WEB215_,Thompson_and_Townsend_2003,Aquatic,Stream,106,TRUE,2003,,Not_Ecopath_model
+57,WEB216_,Thompson_and_Townsend_2003,Aquatic,Stream,59,TRUE,2003,,Not_Ecopath_model
+58,WEB217_,Thompson_and_Townsend_2003,Aquatic,Stream,71,TRUE,2003,,Not_Ecopath_model
+59,WEB218_,Thompson_and_Townsend_2004,Aquatic,Stream,78,TRUE,2004,,Not_Ecopath_model
+60,WEB219_,Thompson_and_Townsend_2004,Aquatic,Stream,79,TRUE,2004,,Not_Ecopath_model
+61,WEB220_,Thompson_and_Townsend_2004,Aquatic,Stream,66,TRUE,2004,,Not_Ecopath_model
+62,WEB221_,Thompson_and_Townsend_2004,Aquatic,Stream,52,TRUE,2004,,Not_Ecopath_model
+63,WEB222_,Thompson_and_Townsend_2004,Aquatic,Stream,78,TRUE,2004,,Not_Ecopath_model
+64,WEB223_,Thompson_and_Townsend_2004,Aquatic,Stream,85,TRUE,2004,,Not_Ecopath_model
+65,WEB224_,Thompson_and_Townsend_2004,Aquatic,Stream,57,TRUE,2004,,Not_Ecopath_model
+66,WEB225_,Thompson_and_Townsend_2004,Aquatic,Stream,73,TRUE,2004,,Not_Ecopath_model
+67,WEB226_,Thompson_and_Townsend_2004,Aquatic,Stream,107,TRUE,2004,,Not_Ecopath_model
+68,WEB227_,Thompson_and_Townsend_2004,Aquatic,Stream,84,TRUE,2004,,Not_Ecopath_model
+69,WEB228_,Thompson_and_Townsend_2004,Aquatic,Stream,96,TRUE,2004,,Not_Ecopath_model
+70,WEB229_,Thompson_and_Townsend_2004,Aquatic,Stream,98,TRUE,2004,,Not_Ecopath_model
+71,WEB230_,Thompson_and_Townsend_2004,Aquatic,Stream,78,TRUE,2004,,Not_Ecopath_model
+72,WEB231_,Thompson_and_Townsend_2004,Aquatic,Stream,112,TRUE,2004,,Not_Ecopath_model
+73,WEB232_,Thompson_and_Townsend_2004,Aquatic,Stream,86,TRUE,2004,,Not_Ecopath_model
+74,WEB233_,Thompson_and_Townsend_2004,Aquatic,Stream,86,TRUE,2004,,Not_Ecopath_model
+75,WEB234_,Thompson_and_Townsend_2004,Aquatic,Stream,94,TRUE,2004,,Not_Ecopath_model
+76,WEB235_,Thompson_and_Townsend_2004,Aquatic,Stream,108,TRUE,2004,,Not_Ecopath_model
+77,WEB236_,Thompson_and_Townsend_2004,Aquatic,Stream,68,TRUE,2004,,Not_Ecopath_model
+78,WEB237_,Thompson_and_Townsend_2004,Aquatic,Stream,57,TRUE,2004,,Not_Ecopath_model
+79,WEB238_,Thompson_and_Townsend_2004,Aquatic,Stream,72,TRUE,2004,,Not_Ecopath_model
+80,WEB239_,Thompson_and_Townsend_2004,Aquatic,Stream,69,TRUE,2004,,Not_Ecopath_model
+81,WEB240_,Thompson_and_Townsend_2004,Aquatic,Stream,67,TRUE,2004,,Not_Ecopath_model
+82,WEB241_,Thompson_and_Townsend_2004,Aquatic,Stream,69,TRUE,2004,,Not_Ecopath_model
+83,WEB242_,Thompson_and_Townsend_2004,Aquatic,Stream,81,TRUE,2004,,Not_Ecopath_model
+84,WEB243_,Thompson_and_Townsend_2004,Aquatic,Stream,39,TRUE,2004,,Not_Ecopath_model
+85,WEB244_,Thompson_and_Townsend_2004,Aquatic,Stream,70,TRUE,2004,,Not_Ecopath_model
+86,WEB245_,Thompson_and_Townsend_2004,Aquatic,Stream,55,TRUE,2004,,Not_Ecopath_model
+87,WEB246_,Thompson_and_Townsend_2004,Aquatic,Stream,59,TRUE,2004,,Not_Ecopath_model
+88,WEB247_,Thompson_and_Townsend_2004,Aquatic,Stream,49,TRUE,2004,,Not_Ecopath_model
+89,WEB248_,One_network_per_publication,Aquatic and terrestrial,,78,TRUE,2005,2000,Not_Ecopath_model
+90,WEB249_,One_network_per_publication,Aquatic,River,40,TRUE,2005,2000,Ecopath_model
+91,WEB250_,Angelini_et_al_2006,Aquatic,River,32,TRUE,2006,,Ecopath_model
+92,WEB251_,Angelini_et_al_2006,Aquatic,River,33,TRUE,2006,,Ecopath_model
+93,WEB252_,One_network_per_publication,Aquatic,River,13,TRUE,2010,2010,Ecopath_model
+94,WEB253_,One_network_per_publication,Aquatic,Marine,28,TRUE,2011,2010,Ecopath_model
+95,WEB254_,Angelini_et_al_2013,Aquatic,Lake,39,TRUE,2013,,Ecopath_model
+96,WEB255_,Angelini_et_al_2013,Aquatic,Lake,39,TRUE,2013,,Ecopath_model
+97,WEB256_,Angelini_et_al_2013,Aquatic,Lake,40,TRUE,2013,,Ecopath_model
+98,WEB257_,Baeta_et_al_2011,Aquatic,Marine,37,TRUE,2011,,Ecopath_model
+99,WEB258_,Baeta_et_al_2011,Aquatic,Marine,32,TRUE,2011,,Ecopath_model
+100,WEB259_,Baeta_et_al_2011,Aquatic,Marine,25,TRUE,2011,,Ecopath_model
+101,WEB260_,Baeta_et_al_2011,Aquatic,Marine,26,TRUE,2011,,Ecopath_model
+102,WEB261_,Baeta_et_al_2011,Aquatic,Marine,21,TRUE,2011,,Ecopath_model
+103,WEB262_,Baeta_et_al_2011,Aquatic,Marine,21,TRUE,2011,,Ecopath_model
+104,WEB263_,One_network_per_publication,Aquatic and terrestrial,,77,TRUE,1997,1990,Not_Ecopath_model
+105,WEB264_,One_network_per_publication,Aquatic,Stream,12,TRUE,2002,2000,Not_Ecopath_model
+106,WEB265_,One_network_per_publication,Aquatic,Marine,18,TRUE,2006,2000,Ecopath_model
+107,WEB266_,One_network_per_publication,Aquatic,Marine,28,TRUE,2008,2000,Ecopath_model
+108,WEB267_,One_network_per_publication,Aquatic,Marine,26,TRUE,2003,2000,Ecopath_model
+109,WEB268_,One_network_per_publication,Aquatic,Marine,30,TRUE,2007,2000,Ecopath_model
+110,WEB269_,One_network_per_publication,Aquatic,Lake,16,TRUE,2007,2000,Ecopath_model
+111,WEB270_,One_network_per_publication,Aquatic,Marine,26,TRUE,2011,2010,Not_Ecopath_model
+112,WEB271_,One_network_per_publication,Aquatic,Lake,50,TRUE,2013,2010,Not_Ecopath_model
+113,WEB273_,Parker_and_Huryn_2006,Aquatic,Stream,45,TRUE,2006,,Not_Ecopath_model
+114,WEB274_,Parker_and_Huryn_2006,Aquatic,Stream,38,TRUE,2006,,Not_Ecopath_model
+115,WEB275_,Parker_and_Huryn_2006,Aquatic,Stream,42,TRUE,2006,,Not_Ecopath_model
+116,WEB276_,Parker_and_Huryn_2006,Aquatic,Stream,37,TRUE,2006,,Not_Ecopath_model
+117,WEB278_,Stewart_and_Sprules_2011,Aquatic,Lake,22,TRUE,2011,,Ecopath_model
+118,WEB279_,Stewart_and_Sprules_2011,Aquatic,Lake,22,TRUE,2011,,Ecopath_model
+119,WEB281_,Tavares-Cromar_and_Williams_1996,Aquatic,Stream,39,TRUE,1996,,Not_Ecopath_model
+120,WEB285_,Tavares-Cromar_and_Williams_1996,Aquatic,Stream,37,TRUE,1996,,Not_Ecopath_model
+121,WEB288_,One_network_per_publication,Aquatic,Marine,48,TRUE,1999,1990,Ecopath_model
+122,WEB289_,One_network_per_publication,Aquatic,Lake,15,TRUE,2011,2010,Ecopath_model
+123,WEB295_,One_network_per_publication,Aquatic and terrestrial,,113,TRUE,2012,2010,Not_Ecopath_model
+124,WEB296_,One_network_per_publication,Aquatic and terrestrial,,10,TRUE,1996,1990,Not_Ecopath_model
+125,WEB306_,Closs_and_Lake_1994,Aquatic,Stream,49,TRUE,1994,,Not_Ecopath_model
+126,WEB307_,Closs_and_Lake_1994,Aquatic,Stream,52,TRUE,1994,,Not_Ecopath_model
+127,WEB308_,Closs_and_Lake_1994,Aquatic,Stream,51,TRUE,1994,,Not_Ecopath_model
+128,WEB309_,One_network_per_publication,Aquatic,Marine,16,TRUE,2011,2010,Not_Ecopath_model
+129,WEB310_,One_network_per_publication,Aquatic,River,14,TRUE,2009,2000,Ecopath_model
+130,WEB311_,One_network_per_publication,Terrestrial,,154,TRUE,2000,2000,Not_Ecopath_model
+131,WEB334_,Alcorlo_et_al_2001,Aquatic,Lake,13,TRUE,2001,,Not_Ecopath_model
+132,WEB335_,Alcorlo_et_al_2001,Aquatic,Lake,15,TRUE,2001,,Not_Ecopath_model
+133,WEB338_,One_network_per_publication,Aquatic,Marine,42,TRUE,2013,2010,Ecopath_model
+134,WEB340_,One_network_per_publication,Aquatic,Marine,24,TRUE,2007,2000,Not_Ecopath_model
+135,WEB343_,One_network_per_publication,Aquatic and terrestrial,,12,TRUE,1987,1980,Not_Ecopath_model
+136,WEB344_,One_network_per_publication,Terrestrial,,29,TRUE,2004,2000,Not_Ecopath_model
+137,WEB345_,One_network_per_publication,Aquatic,Lake,23,TRUE,2012,2010,Not_Ecopath_model
+138,WEB347_,One_network_per_publication,Aquatic,Stream,106,TRUE,2005,2000,Not_Ecopath_model
+139,WEB350_,One_network_per_publication,Aquatic,Marine,24,TRUE,2011,2010,Not_Ecopath_model
+140,WEB351_,One_network_per_publication,Aquatic and terrestrial,,35,TRUE,1989,1980,Not_Ecopath_model
+141,WEB353_,One_network_per_publication,Aquatic,Stream,15,TRUE,2003,2000,Ecopath_model
+142,WEB354_,One_network_per_publication,Terrestrial,,44,TRUE,1993,1990,Not_Ecopath_model
+143,WEB355_,Cohen_et_al_2003,Aquatic,Lake,21,TRUE,2003,,Not_Ecopath_model
+144,WEB356_,Cohen_et_al_2003,Aquatic,Lake,20,TRUE,2003,,Not_Ecopath_model
+145,WEB357_,One_network_per_publication,Aquatic,Marine,29,TRUE,1998,1990,Not_Ecopath_model
+146,WEB358_,One_network_per_publication,Terrestrial,,14,TRUE,2003,2000,Not_Ecopath_model
+147,carpinteria_,One_network_per_publication,Aquatic and terrestrial,,127,TRUE,2006,2000,Not_Ecopath_model
+148,FW_008_,One_network_per_publication,Aquatic,Marine,249,TRUE,2005,2000,Ecopath_model
+149,mown_Clmown1_,Cattin_Blandenier_2004,Terrestrial,,163,TRUE,2004,,Not_Ecopath_model
+150,mown_Clmown2_,Cattin_Blandenier_2004,Terrestrial,,136,TRUE,2004,,Not_Ecopath_model
+151,mown_Scmown1_,Cattin_Blandenier_2004,Terrestrial,,131,TRUE,2004,,Not_Ecopath_model
+152,mown_Scmown2_,Cattin_Blandenier_2004,Terrestrial,,128,TRUE,2004,,Not_Ecopath_model
+153,not_mown_ClControl1_,Cattin_Blandenier_2004,Terrestrial,,139,TRUE,2004,,Not_Ecopath_model
+154,not_mown_ClControl2_,Cattin_Blandenier_2004,Terrestrial,,97,TRUE,2004,,Not_Ecopath_model
+155,not_mown_ScControl1_,Cattin_Blandenier_2004,Terrestrial,,132,TRUE,2004,,Not_Ecopath_model
+156,not_mown_ScControl2_,Cattin_Blandenier_2004,Terrestrial,,126,TRUE,2004,,Not_Ecopath_model
+157,AEW01_,Digel_et_al_2014,Terrestrial,,121,TRUE,2014,,Not_Ecopath_model
+158,AEW02_,Digel_et_al_2014,Terrestrial,,153,TRUE,2014,,Not_Ecopath_model
+159,AEW03_,Digel_et_al_2014,Terrestrial,,122,TRUE,2014,,Not_Ecopath_model
+160,AEW04_,Digel_et_al_2014,Terrestrial,,125,TRUE,2014,,Not_Ecopath_model
+161,AEW05_,Digel_et_al_2014,Terrestrial,,126,TRUE,2014,,Not_Ecopath_model
+162,AEW06_,Digel_et_al_2014,Terrestrial,,120,TRUE,2014,,Not_Ecopath_model
+163,AEW07_,Digel_et_al_2014,Terrestrial,,129,TRUE,2014,,Not_Ecopath_model
+164,AEW08_,Digel_et_al_2014,Terrestrial,,136,TRUE,2014,,Not_Ecopath_model
+165,AEW09_,Digel_et_al_2014,Terrestrial,,134,TRUE,2014,,Not_Ecopath_model
+166,AEW11_,Digel_et_al_2014,Terrestrial,,120,TRUE,2014,,Not_Ecopath_model
+167,AEW17_,Digel_et_al_2014,Terrestrial,,145,TRUE,2014,,Not_Ecopath_model
+168,AEW18_,Digel_et_al_2014,Terrestrial,,111,TRUE,2014,,Not_Ecopath_model
+169,AEW25_,Digel_et_al_2014,Terrestrial,,123,TRUE,2014,,Not_Ecopath_model
+170,AEW27_,Digel_et_al_2014,Terrestrial,,120,TRUE,2014,,Not_Ecopath_model
+171,AEW30_,Digel_et_al_2014,Terrestrial,,114,TRUE,2014,,Not_Ecopath_model
+172,AEW49_,Digel_et_al_2014,Terrestrial,,154,TRUE,2014,,Not_Ecopath_model
+173,HEW01_,Digel_et_al_2014,Terrestrial,,134,TRUE,2014,,Not_Ecopath_model
+174,HEW02_,Digel_et_al_2014,Terrestrial,,126,TRUE,2014,,Not_Ecopath_model
+175,HEW03_,Digel_et_al_2014,Terrestrial,,123,TRUE,2014,,Not_Ecopath_model
+176,HEW04_,Digel_et_al_2014,Terrestrial,,116,TRUE,2014,,Not_Ecopath_model
+177,HEW05_,Digel_et_al_2014,Terrestrial,,168,TRUE,2014,,Not_Ecopath_model
+178,HEW06_,Digel_et_al_2014,Terrestrial,,142,TRUE,2014,,Not_Ecopath_model
+179,HEW10_,Digel_et_al_2014,Terrestrial,,91,TRUE,2014,,Not_Ecopath_model
+180,HEW11_,Digel_et_al_2014,Terrestrial,,132,TRUE,2014,,Not_Ecopath_model
+181,HEW12_,Digel_et_al_2014,Terrestrial,,143,TRUE,2014,,Not_Ecopath_model
+182,HEW13_,Digel_et_al_2014,Terrestrial,,144,TRUE,2014,,Not_Ecopath_model
+183,HEW16_,Digel_et_al_2014,Terrestrial,,132,TRUE,2014,,Not_Ecopath_model
+184,HEW17_,Digel_et_al_2014,Terrestrial,,139,TRUE,2014,,Not_Ecopath_model
+185,HEW21_,Digel_et_al_2014,Terrestrial,,146,TRUE,2014,,Not_Ecopath_model
+186,HEW22_,Digel_et_al_2014,Terrestrial,,137,TRUE,2014,,Not_Ecopath_model
+187,HEW36_,Digel_et_al_2014,Terrestrial,,160,TRUE,2014,,Not_Ecopath_model
+188,HEW47_,Digel_et_al_2014,Terrestrial,,148,TRUE,2014,,Not_Ecopath_model
+189,SEW01_,Digel_et_al_2014,Terrestrial,,104,TRUE,2014,,Not_Ecopath_model
+190,SEW02_,Digel_et_al_2014,Terrestrial,,93,TRUE,2014,,Not_Ecopath_model
+191,SEW03_,Digel_et_al_2014,Terrestrial,,122,TRUE,2014,,Not_Ecopath_model
+192,SEW04_,Digel_et_al_2014,Terrestrial,,120,TRUE,2014,,Not_Ecopath_model
+193,SEW05_,Digel_et_al_2014,Terrestrial,,101,TRUE,2014,,Not_Ecopath_model
+194,SEW06_,Digel_et_al_2014,Terrestrial,,127,TRUE,2014,,Not_Ecopath_model
+195,SEW07_,Digel_et_al_2014,Terrestrial,,132,TRUE,2014,,Not_Ecopath_model
+196,SEW08_,Digel_et_al_2014,Terrestrial,,118,TRUE,2014,,Not_Ecopath_model
+197,SEW09_,Digel_et_al_2014,Terrestrial,,89,TRUE,2014,,Not_Ecopath_model
+198,SEW18_,Digel_et_al_2014,Terrestrial,,123,TRUE,2014,,Not_Ecopath_model
+199,SEW35_,Digel_et_al_2014,Terrestrial,,101,TRUE,2014,,Not_Ecopath_model
+200,SEW36_,Digel_et_al_2014,Terrestrial,,89,TRUE,2014,,Not_Ecopath_model
+201,SEW37_,Digel_et_al_2014,Terrestrial,,118,TRUE,2014,,Not_Ecopath_model
+202,SEW41_,Digel_et_al_2014,Terrestrial,,118,TRUE,2014,,Not_Ecopath_model
+203,SEW43_,Digel_et_al_2014,Terrestrial,,120,TRUE,2014,,Not_Ecopath_model
+204,SEW48_,Digel_et_al_2014,Terrestrial,,118,TRUE,2014,,Not_Ecopath_model
+205,Alford_Lake_,Havens_1992,Aquatic,Lake,56,TRUE,1992,,Not_Ecopath_model
+206,Balsam_Lake_,Havens_1992,Aquatic,Lake,50,TRUE,1992,,Not_Ecopath_model
+207,Beaver_Lake_,Havens_1992,Aquatic,Lake,56,TRUE,1992,,Not_Ecopath_model
+208,Big_Hope_Lake_,Havens_1992,Aquatic,Lake,61,TRUE,1992,,Not_Ecopath_model
+209,Brandy_Lake_,Havens_1992,Aquatic,Lake,30,TRUE,1992,,Not_Ecopath_model
+210,Bridge_Brook_Lake_,Havens_1992,Aquatic,Lake,75,TRUE,1992,,Not_Ecopath_model
+211,Burntbridge_Lake_,Havens_1992,Aquatic,Lake,53,TRUE,1992,,Not_Ecopath_model
+212,Cascade_Lake_,Havens_1992,Aquatic,Lake,35,TRUE,1992,,Not_Ecopath_model
+213,Chub_Lake_,Havens_1992,Aquatic,Lake,36,TRUE,1992,,Not_Ecopath_model
+214,Connera_Lake_,Havens_1992,Aquatic,Lake,65,TRUE,1992,,Not_Ecopath_model
+215,Constable_Lake_,Havens_1992,Aquatic,Lake,30,TRUE,1992,,Not_Ecopath_model
+216,Emerald_Lake_,Havens_1992,Aquatic,Lake,22,TRUE,1992,,Not_Ecopath_model
+217,Falls_Lake_,Havens_1992,Aquatic,Lake,39,TRUE,1992,,Not_Ecopath_model
+218,Fawn_Lake_,Havens_1992,Aquatic,Lake,32,TRUE,1992,,Not_Ecopath_model
+219,Federation_Lake_,Havens_1992,Aquatic,Lake,22,TRUE,1992,,Not_Ecopath_model
+220,Goose_Lake_,Havens_1992,Aquatic,Lake,40,TRUE,1992,,Not_Ecopath_model
+221,Grass_Lake_,Havens_1992,Aquatic,Lake,44,TRUE,1992,,Not_Ecopath_model
+222,Gull_Lake_,Havens_1992,Aquatic,Lake,45,TRUE,1992,,Not_Ecopath_model
+223,Hoel_Lake_,Havens_1992,Aquatic,Lake,72,TRUE,1992,,Not_Ecopath_model
+224,Horseshoe_Lake_,Havens_1992,Aquatic,Lake,49,TRUE,1992,,Not_Ecopath_model
+225,Little_Rainbow_Lake_,Havens_1992,Aquatic,Lake,52,TRUE,1992,,Not_Ecopath_model
+226,Long_Lake_,Havens_1992,Aquatic,Lake,65,TRUE,1992,,Not_Ecopath_model
+227,Loon_Lake_,Havens_1992,Aquatic,Lake,35,TRUE,1992,,Not_Ecopath_model
+228,Lost_Lake_East_,Havens_1992,Aquatic,Lake,41,TRUE,1992,,Not_Ecopath_model
+229,Lost_Lake_,Havens_1992,Aquatic,Lake,31,TRUE,1992,,Not_Ecopath_model
+230,Lower_Sister_Lake_,Havens_1992,Aquatic,Lake,37,TRUE,1992,,Not_Ecopath_model
+231,Oswego_Lake_,Havens_1992,Aquatic,Lake,33,TRUE,1992,,Not_Ecopath_model
+232,Rat_Lake_,Havens_1992,Aquatic,Lake,50,TRUE,1992,,Not_Ecopath_model
+233,Razorback_Lake_,Havens_1992,Aquatic,Lake,42,TRUE,1992,,Not_Ecopath_model
+234,Russian_Lake_,Havens_1992,Aquatic,Lake,24,TRUE,1992,,Not_Ecopath_model
+235,Safford_Lake_,Havens_1992,Aquatic,Lake,44,TRUE,1992,,Not_Ecopath_model
+236,Sand_Lake_,Havens_1992,Aquatic,Lake,29,TRUE,1992,,Not_Ecopath_model
+237,Squaw_Lake_,Havens_1992,Aquatic,Lake,41,TRUE,1992,,Not_Ecopath_model
+238,Stink_Lake_,Havens_1992,Aquatic,Lake,53,TRUE,1992,,Not_Ecopath_model
+239,Twelfth_Tee_Lake_,Havens_1992,Aquatic,Lake,31,TRUE,1992,,Not_Ecopath_model
+240,Whipple_Lake_,Havens_1992,Aquatic,Lake,32,TRUE,1992,,Not_Ecopath_model
+241,Buck_Pond_,Havens_1992,Aquatic and terrestrial,,41,TRUE,1992,,Not_Ecopath_model
+242,Chub_Pond_,Havens_1992,Aquatic and terrestrial,,54,TRUE,1992,,Not_Ecopath_model
+243,Helldiver_Pond_,Havens_1992,Aquatic and terrestrial,,41,TRUE,1992,,Not_Ecopath_model
+244,High_Pond_,Havens_1992,Aquatic and terrestrial,,24,TRUE,1992,,Not_Ecopath_model
+245,Afon_Hafren_2005_,Layer_et_al_2010,Aquatic,Stream,22,TRUE,2010,,Not_Ecopath_model
+246,Allt_a_Mharcaidh_,Layer_et_al_2010,Aquatic,Stream,37,TRUE,2010,,Not_Ecopath_model
+247,Broadstone_Stream_,Layer_et_al_2010,Aquatic,Stream,23,TRUE,2010,,Not_Ecopath_model
+248,Dargall_Lane_,Layer_et_al_2010,Aquatic,Stream,20,TRUE,2010,,Not_Ecopath_model
+249,Duddon_Pike_Beck_,Layer_et_al_2010,Aquatic,Stream,31,TRUE,2010,,Not_Ecopath_model
+250,Hardknott_Gill_,Layer_et_al_2010,Aquatic,Stream,41,TRUE,2010,,Not_Ecopath_model
+251,Mill_Stream_,Layer_et_al_2010,Aquatic,Stream,81,TRUE,2010,,Not_Ecopath_model
+252,Mosendale_Beck_,Layer_et_al_2010,Aquatic,Stream,21,TRUE,2010,,Not_Ecopath_model
+253,Old_Lodge_,Layer_et_al_2010,Aquatic,Stream,21,TRUE,2010,,Not_Ecopath_model
+254,Alert_,Legagneux_et_al_2014,Terrestrial,,16,TRUE,2014,,Not_Ecopath_model
+255,Bylot_,Legagneux_et_al_2014,Terrestrial,,16,TRUE,2014,,Not_Ecopath_model
+256,Herschel_,Legagneux_et_al_2014,Terrestrial,,23,TRUE,2014,,Not_Ecopath_model
+257,Nenetsky_,Legagneux_et_al_2014,Terrestrial,,24,TRUE,2014,,Not_Ecopath_model
+258,Yamal_,Legagneux_et_al_2014,Terrestrial,,22,TRUE,2014,,Not_Ecopath_model
+259,Zackenberg_,Legagneux_et_al_2014,Terrestrial,,17,TRUE,2014,,Not_Ecopath_model
+260,Iceland_Stream_IS7_April_2009_,O_Gorman_et_al_2019,Aquatic,Stream,30,TRUE,2019,,Not_Ecopath_model
+261,Iceland_Stream_IS7_August_2008_,O_Gorman_et_al_2019,Aquatic,Stream,59,TRUE,2019,,Not_Ecopath_model
+262,Iceland_Stream_IS8_April_2009_,O_Gorman_et_al_2019,Aquatic,Stream,37,TRUE,2019,,Not_Ecopath_model
+263,Iceland_Stream_IS8_August_2008_,O_Gorman_et_al_2019,Aquatic,Stream,43,TRUE,2019,,Not_Ecopath_model
+264,Lake_Malawi_,One_network_per_publication,Aquatic,Lake,27,TRUE,1999,1990,Ecopath_model
+265,Ythan_Estuary_,One_network_per_publication,Aquatic,Marine,92,TRUE,2009,2000,Not_Ecopath_model
+266,Kongsfjorden_,One_network_per_publication,Aquatic,Marine,262,TRUE,2013,2010,Not_Ecopath_model
+267,Weddell_Sea_,One_network_per_publication,Aquatic,Marine,490,TRUE,2011,2010,Not_Ecopath_model
+268,Skipwith_Pond_,One_network_per_publication,Aquatic and terrestrial,,34,TRUE,1990,1990,Not_Ecopath_model
+269,Gearagh_,One_network_per_publication,Terrestrial,,116,TRUE,2010,2010,Not_Ecopath_model
+270,FloridaIslandE1_,Piechnik_et_al_2008,Aquatic and terrestrial,,210,TRUE,2008,,Not_Ecopath_model
+271,FloridaIslandE2_,Piechnik_et_al_2008,Aquatic and terrestrial,,59,TRUE,2008,,Not_Ecopath_model
+272,FloridaIslandE3_,Piechnik_et_al_2008,Aquatic and terrestrial,,211,TRUE,2008,,Not_Ecopath_model
+273,FloridaIslandE7_,Piechnik_et_al_2008,Aquatic and terrestrial,,54,TRUE,2008,,Not_Ecopath_model
+274,FloridaIslandE9_,Piechnik_et_al_2008,Aquatic and terrestrial,,56,TRUE,2008,,Not_Ecopath_model
