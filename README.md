@@ -3,7 +3,7 @@
 <ul>
   <li>Code to reproduce all numerics in the manuscript are in the accompanying R scipts.</li>
   <li>Code to reproduce the multidimensional plot (Figure 3) is in <ins>mds.py</ins>.</li>
-  <li>All metadata for the associated networks is in <ins>metadata.csv</ins>.</li>
+  <li>All metadata for the associated networks is in <ins>metaData.csv</ins>.</li>
   <li>All computed pairwise graphlet correlated distance-11s between networks is in <ins>gcd11.csv</ins>.</li>
   <li>All networks used in the manuscript are in the folder <ins>networks</ins>.
   <ul>
