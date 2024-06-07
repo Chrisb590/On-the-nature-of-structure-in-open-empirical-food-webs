@@ -1,4 +1,4 @@
- <font size="+3">This repository contains all files used in <ins>On the nature of structure in freely available food webs</ins>. </font>
+ <font size="+3">This repository contains all files used in <ins>On the nature of structure in collections of freely available food webs</ins>. </font>
 
 <ul>
   <li>Code to reproduce all numerics in the manuscript are in the accompanying R scripts.</li>
