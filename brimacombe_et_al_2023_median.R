@@ -2,9 +2,10 @@
 ##
 ##
 ##
-##  For recreating the results of Brimacombe et al. 
-##  (2024): On the nature of structure in collections  
-##  of freely available food webs
+##  For recreating the median results of Brimacombe et al. (2024):
+##  Publication-driven consistency in food web structures: 
+##  Implications for comparative ecology of freely available 
+##  food webs
 ##
 ##
 ##

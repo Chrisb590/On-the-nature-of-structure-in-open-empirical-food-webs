@@ -3,8 +3,9 @@
 ##
 ##
 ##  For recreating table S3 of Brimacombe et al. (2024):
-##  On the nature of structure in collections  
-##  of freely available food webs
+##  Publication-driven consistency in food web structures: 
+##  Implications for comparative ecology of freely available 
+##  food webs
 ##
 ##
 ##

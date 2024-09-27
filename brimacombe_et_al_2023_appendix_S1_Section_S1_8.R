@@ -3,8 +3,9 @@
 ##
 ##
 ##  For recreating Appendix S1: Section S1.8 of 
-##  Brimacombe et al. (2024): On the nature of structure 
-##  in collections of freely available food webs
+##  Brimacombe et al. (2024): Publication-driven consistency 
+##  in food web structures: Implications for comparative 
+##  ecology of freely available food webs
 ##
 ##
 ##

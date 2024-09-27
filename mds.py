@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 """
   For recreating the MDS of Brimacombe et al. (2024):
-  On the nature of structure in open empirical food webs 
+  Publication-driven consistency in food web structures: 
+  Implications for comparative ecology 
 
   This script takes both the pairwise GCD11 matrix 
   (gcd11.csv) between all networks and information about 
